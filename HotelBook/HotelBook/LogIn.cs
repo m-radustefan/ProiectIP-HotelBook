@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace HotelBook
 {
-    public partial class Home : Form
+    public partial class LogIn : Form
     {
-        public Home()
+        public LogIn()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
