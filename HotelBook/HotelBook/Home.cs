@@ -63,6 +63,12 @@ namespace HotelBook
             NavigateTo(new AdminRegister());  // Register → AdminRegister
         }
 
+        private void rooms_Click(object sender, EventArgs e)
+        {
+            NavigateTo(new RoomPanel());
+        }
+
+
         private void logout_Click(object sender, EventArgs e)
         {
             SessionManager.Logout();

@@ -33,13 +33,14 @@
             this.admin = new System.Windows.Forms.Button();
             this.control = new System.Windows.Forms.Button();
             this.booking = new System.Windows.Forms.Button();
+            this.rooms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // logout
             // 
-            this.logout.Location = new System.Drawing.Point(612, 380);
+            this.logout.Location = new System.Drawing.Point(295, 472);
             this.logout.Name = "logout";
-            this.logout.Size = new System.Drawing.Size(156, 46);
+            this.logout.Size = new System.Drawing.Size(168, 66);
             this.logout.TabIndex = 2;
             this.logout.Text = "LOG OUT";
             this.logout.UseVisualStyleBackColor = true;
@@ -85,11 +86,22 @@
             this.booking.UseVisualStyleBackColor = true;
             this.booking.Click += new System.EventHandler(this.booking_Click);
             // 
+            // rooms
+            // 
+            this.rooms.Location = new System.Drawing.Point(295, 388);
+            this.rooms.Name = "rooms";
+            this.rooms.Size = new System.Drawing.Size(168, 66);
+            this.rooms.TabIndex = 7;
+            this.rooms.Text = "ROOMS";
+            this.rooms.UseVisualStyleBackColor = true;
+            this.rooms.Click += new System.EventHandler(this.rooms_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 560);
+            this.Controls.Add(this.rooms);
             this.Controls.Add(this.booking);
             this.Controls.Add(this.control);
             this.Controls.Add(this.admin);
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button admin;
         private System.Windows.Forms.Button control;
         private System.Windows.Forms.Button booking;
+        private System.Windows.Forms.Button rooms;
     }
 }
 

@@ -1,9 +1,7 @@
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.dll
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.pdb
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll
-D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Services.dll
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.pdb
-D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Services.pdb
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.AssemblyReference.cache
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.CoreCompileInputs.cache
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBoo.3266E5CB.Up2Date
@@ -27,4 +25,3 @@ D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\Sys
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.Linq.dll
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.xml
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll.config
-D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Services.dll.config

@@ -31,3 +31,4 @@ D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBoo
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.dll.config
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.xml
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.RoomPanel.resources

@@ -80,8 +80,8 @@ namespace HotelBook.Data
                 using (var cmd = conn.CreateCommand())
                 {
                     cmd.CommandText = @"
-INSERT INTO Employees (FirstName,LastName,Username,Password,Role)
-VALUES (@f,@l,@u,@p,@r);";
+                    INSERT INTO Employees (FirstName,LastName,Username,Password,Role)
+                    VALUES (@f,@l,@u,@p,@r);";
                     cmd.Parameters.AddWithValue("@f", emp.FirstName);
                     cmd.Parameters.AddWithValue("@l", emp.LastName);
                     cmd.Parameters.AddWithValue("@u", emp.Username);

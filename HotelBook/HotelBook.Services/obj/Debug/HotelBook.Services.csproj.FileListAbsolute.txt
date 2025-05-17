@@ -17,3 +17,6 @@ D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.xml
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.SqlServer.xml
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.dll.config

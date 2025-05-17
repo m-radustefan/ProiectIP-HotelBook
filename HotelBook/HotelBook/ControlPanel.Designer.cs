@@ -28,22 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.bookedControlPanel = new System.Windows.Forms.Button();
             this.checkoutControlPanel = new System.Windows.Forms.Button();
             this.readytobookControlPanel = new System.Windows.Forms.Button();
             this.backControlPanel = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(108, 54);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(954, 441);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // bookedControlPanel
             // 
@@ -89,29 +80,41 @@
             this.backControlPanel.UseVisualStyleBackColor = true;
             this.backControlPanel.Click += new System.EventHandler(this.backControlPanel_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(80, 29);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(1032, 498);
+            this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
             // ControlPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.backControlPanel);
             this.Controls.Add(this.readytobookControlPanel);
             this.Controls.Add(this.checkoutControlPanel);
             this.Controls.Add(this.bookedControlPanel);
-            this.Controls.Add(this.richTextBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ControlPanel";
             this.Text = "ControlPanel";
+            this.Load += new System.EventHandler(this.ControlPanel_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button bookedControlPanel;
         private System.Windows.Forms.Button checkoutControlPanel;
         private System.Windows.Forms.Button readytobookControlPanel;
         private System.Windows.Forms.Button backControlPanel;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

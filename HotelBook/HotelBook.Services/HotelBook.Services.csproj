@@ -61,10 +61,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomService.cs" />
     <Compile Include="SessionManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HotelBook.Data\HotelBook.Data.csproj">
+      <Project>{d11fb6d0-7248-4198-9778-991b6e562c32}</Project>
+      <Name>HotelBook.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HotelBook.Domain\HotelBook.Domain.csproj">
       <Project>{9ea258d1-fe98-4e63-a797-3cbbd1a0c50e}</Project>
       <Name>HotelBook.Domain</Name>
