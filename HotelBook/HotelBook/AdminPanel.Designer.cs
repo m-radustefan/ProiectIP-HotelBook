@@ -28,23 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.addAdminPanel = new System.Windows.Forms.Button();
             this.removeAdminPanel = new System.Windows.Forms.Button();
             this.backAdminPanel = new System.Windows.Forms.Button();
+            this.dataGridViewEmployees = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmployees)).BeginInit();
             this.SuspendLayout();
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(513, 502);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
             // 
             // addAdminPanel
             // 
-            this.addAdminPanel.Location = new System.Drawing.Point(644, 65);
+            this.addAdminPanel.Location = new System.Drawing.Point(1103, 45);
             this.addAdminPanel.Name = "addAdminPanel";
             this.addAdminPanel.Size = new System.Drawing.Size(135, 67);
             this.addAdminPanel.TabIndex = 1;
@@ -54,7 +47,7 @@
             // 
             // removeAdminPanel
             // 
-            this.removeAdminPanel.Location = new System.Drawing.Point(644, 186);
+            this.removeAdminPanel.Location = new System.Drawing.Point(1103, 166);
             this.removeAdminPanel.Name = "removeAdminPanel";
             this.removeAdminPanel.Size = new System.Drawing.Size(135, 62);
             this.removeAdminPanel.TabIndex = 2;
@@ -64,34 +57,46 @@
             // 
             // backAdminPanel
             // 
-            this.backAdminPanel.Location = new System.Drawing.Point(711, 446);
+            this.backAdminPanel.Location = new System.Drawing.Point(1103, 431);
             this.backAdminPanel.Name = "backAdminPanel";
-            this.backAdminPanel.Size = new System.Drawing.Size(149, 68);
+            this.backAdminPanel.Size = new System.Drawing.Size(135, 68);
             this.backAdminPanel.TabIndex = 3;
             this.backAdminPanel.Text = "BACK";
             this.backAdminPanel.UseVisualStyleBackColor = true;
             this.backAdminPanel.Click += new System.EventHandler(this.backAdminPanel_Click);
             // 
+            // dataGridViewEmployees
+            // 
+            this.dataGridViewEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewEmployees.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewEmployees.Name = "dataGridViewEmployees";
+            this.dataGridViewEmployees.RowHeadersWidth = 62;
+            this.dataGridViewEmployees.RowTemplate.Height = 28;
+            this.dataGridViewEmployees.Size = new System.Drawing.Size(1009, 502);
+            this.dataGridViewEmployees.TabIndex = 4;
+            this.dataGridViewEmployees.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEmployees_CellContentClick);
+            // 
             // AdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(872, 526);
+            this.ClientSize = new System.Drawing.Size(1287, 526);
+            this.Controls.Add(this.dataGridViewEmployees);
             this.Controls.Add(this.backAdminPanel);
             this.Controls.Add(this.removeAdminPanel);
             this.Controls.Add(this.addAdminPanel);
-            this.Controls.Add(this.richTextBox1);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
+            this.Load += new System.EventHandler(this.AdminPanel_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmployees)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button addAdminPanel;
         private System.Windows.Forms.Button removeAdminPanel;
         private System.Windows.Forms.Button backAdminPanel;
+        private System.Windows.Forms.DataGridView dataGridViewEmployees;
     }
 }

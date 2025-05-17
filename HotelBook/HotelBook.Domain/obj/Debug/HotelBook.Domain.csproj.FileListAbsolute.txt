@@ -4,3 +4,13 @@ D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\H
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.csproj.CoreCompileInputs.cache
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.dll
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\HotelBook.Domain.dll.config
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBoo.94F1B221.Up2Date

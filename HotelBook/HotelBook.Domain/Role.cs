@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace HotelBook.Domain
 {
-    public enum Role { Guest, Clerk, Admin }
+    public enum Role { Guest, Clerk, Admin, Test}
 }

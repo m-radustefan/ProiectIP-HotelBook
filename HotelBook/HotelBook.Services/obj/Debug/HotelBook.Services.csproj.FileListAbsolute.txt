@@ -7,3 +7,13 @@ D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBoo.D9FC009C.Up2Date
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.dll
 D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.dll.config
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.dll.config
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.xml

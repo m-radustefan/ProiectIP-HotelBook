@@ -129,7 +129,6 @@
             this.label3.Size = new System.Drawing.Size(55, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "USER";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -179,6 +178,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AdminRegister";
             this.Text = "AdminRegister";
+            this.Load += new System.EventHandler(this.AdminRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

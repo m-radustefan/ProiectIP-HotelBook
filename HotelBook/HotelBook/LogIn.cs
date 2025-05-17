@@ -17,55 +17,57 @@ namespace HotelBook
         public LogIn()
         {
             InitializeComponent();
-            // ascund vizual parola – RichTextBox n-are PasswordChar,
-            // dar putem dezactiva ScrollBars & selectare:
+            // setări vizuale pentru password box
             richTextBox2.Multiline = false;
             richTextBox2.SelectionProtected = true;
         }
 
-        // LogIn.cs  (în aceeaşi clasă LogIn, sub constructor)
         private void LogIn_Load(object sender, EventArgs e)
         {
-            // Dacă nu ai nimic de făcut la încărcare, las-o goală.
+            // dacă ai nevoie de vreun init, pune-l aici
         }
 
-
-        /// <summary>
-        /// Click pe butonul LOG IN
-        /// </summary>
         private void loginLogIn_Click(object sender, EventArgs e)
         {
             string user = richTextBox1.Text.Trim();
             string pass = richTextBox2.Text.Trim();
 
-            //  TODO: înlocuiește cu verificare în B.D. când vei avea repository.
-            bool isAdmin = user.Equals("admin", StringComparison.OrdinalIgnoreCase)
-                           && pass == "admin";
+            // Căutăm în baza de date un angajat cu username + password
+            var emp = EmployeeService
+                .GetAll()
+                .FirstOrDefault(x =>
+                    x.Username.Equals(user, StringComparison.OrdinalIgnoreCase)
+                    && x.Password == pass
+                );
 
-            if (isAdmin)
+            if (emp == null)
             {
-                // setăm sesiunea şi rolul
-                SessionManager.Login(new User(user, Role.Admin));
-
-                Hide();                 // ascundem LogIn
-                using (var home = new Home())
-                {
-                    home.ShowDialog();  // rulăm Home modal
-                }
-                Close();                // închidem LogIn după ce Home dispare
-            }
-            else
-            {
-                MessageBox.Show("Invalid credentials!",
-                                "Authentication error",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Error);
-
-                // opţional: curăţăm câmpul parolă
+                MessageBox.Show(
+                    "Invalid credentials!",
+                    "Authentication error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
                 richTextBox2.Clear();
-                richTextBox2.Focus();
+                richTextBox1.Focus();
+                return;
             }
+
+            // Înregistrăm sesiunea cu rolul găsit
+            SessionManager.Login(new User(emp.Username, emp.Role));
+
+            // Navigăm la Home
+            Hide();
+            using (var home = new Home())
+            {
+                home.ShowDialog(this);
+            }
+            Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
-
