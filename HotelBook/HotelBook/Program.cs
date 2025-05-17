@@ -8,15 +8,14 @@ namespace HotelBook
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        [STAThread]                 // necesar pentru WinForms
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+
+            // PORNEȘTE aplicația – alege formularul inițial
+            Application.Run(new LogIn());   // sau new Home(), după cum decizi
         }
     }
 }

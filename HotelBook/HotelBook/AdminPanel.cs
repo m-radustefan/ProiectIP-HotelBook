@@ -16,5 +16,20 @@ namespace HotelBook
         {
             InitializeComponent();
         }
+
+        private void addAdminPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void removeAdminPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backAdminPanel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

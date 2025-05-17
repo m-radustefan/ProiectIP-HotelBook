@@ -28,82 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.logout = new System.Windows.Forms.Button();
+            this.register = new System.Windows.Forms.Button();
+            this.admin = new System.Windows.Forms.Button();
+            this.control = new System.Windows.Forms.Button();
+            this.booking = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // logout
             // 
-            this.button1.Location = new System.Drawing.Point(612, 380);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "LOG OUT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.logout.Location = new System.Drawing.Point(612, 380);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(156, 46);
+            this.logout.TabIndex = 2;
+            this.logout.Text = "LOG OUT";
+            this.logout.UseVisualStyleBackColor = true;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
-            // button2
+            // register
             // 
-            this.button2.Location = new System.Drawing.Point(295, 299);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 66);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "REGISTER";
-            this.button2.UseVisualStyleBackColor = true;
+            this.register.Location = new System.Drawing.Point(295, 299);
+            this.register.Name = "register";
+            this.register.Size = new System.Drawing.Size(168, 66);
+            this.register.TabIndex = 3;
+            this.register.Text = "REGISTER";
+            this.register.UseVisualStyleBackColor = true;
+            this.register.Click += new System.EventHandler(this.register_Click);
             // 
-            // button3
+            // admin
             // 
-            this.button3.Location = new System.Drawing.Point(295, 211);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 66);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "ADMIN";
-            this.button3.UseVisualStyleBackColor = true;
+            this.admin.Location = new System.Drawing.Point(295, 211);
+            this.admin.Name = "admin";
+            this.admin.Size = new System.Drawing.Size(168, 66);
+            this.admin.TabIndex = 4;
+            this.admin.Text = "ADMIN";
+            this.admin.UseVisualStyleBackColor = true;
+            this.admin.Click += new System.EventHandler(this.admin_Click);
             // 
-            // button4
+            // control
             // 
-            this.button4.Location = new System.Drawing.Point(295, 39);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 66);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "CONTROL";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.control.Location = new System.Drawing.Point(295, 39);
+            this.control.Name = "control";
+            this.control.Size = new System.Drawing.Size(168, 66);
+            this.control.TabIndex = 5;
+            this.control.Text = "CONTROL";
+            this.control.UseVisualStyleBackColor = true;
+            this.control.Click += new System.EventHandler(this.control_Click);
             // 
-            // button5
+            // booking
             // 
-            this.button5.Location = new System.Drawing.Point(295, 125);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(168, 66);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "BOOKING";
-            this.button5.UseVisualStyleBackColor = true;
+            this.booking.Location = new System.Drawing.Point(295, 125);
+            this.booking.Name = "booking";
+            this.booking.Size = new System.Drawing.Size(168, 66);
+            this.booking.TabIndex = 6;
+            this.booking.Text = "BOOKING";
+            this.booking.UseVisualStyleBackColor = true;
+            this.booking.Click += new System.EventHandler(this.booking_Click);
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.booking);
+            this.Controls.Add(this.control);
+            this.Controls.Add(this.admin);
+            this.Controls.Add(this.register);
+            this.Controls.Add(this.logout);
             this.Name = "Home";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button logout;
+        private System.Windows.Forms.Button register;
+        private System.Windows.Forms.Button admin;
+        private System.Windows.Forms.Button control;
+        private System.Windows.Forms.Button booking;
     }
 }
 

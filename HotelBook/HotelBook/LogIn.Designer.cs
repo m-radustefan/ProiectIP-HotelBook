@@ -32,7 +32,7 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.loginLogIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -69,27 +69,29 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "PASSWORD";
             // 
-            // button1
+            // loginLogIn
             // 
-            this.button1.Location = new System.Drawing.Point(319, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 46);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "LOG IN";
-            this.button1.UseVisualStyleBackColor = true;
+            this.loginLogIn.Location = new System.Drawing.Point(319, 290);
+            this.loginLogIn.Name = "loginLogIn";
+            this.loginLogIn.Size = new System.Drawing.Size(156, 46);
+            this.loginLogIn.TabIndex = 6;
+            this.loginLogIn.Text = "LOG IN";
+            this.loginLogIn.UseVisualStyleBackColor = true;
+            this.loginLogIn.Click += new System.EventHandler(this.loginLogIn_Click);
             // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.loginLogIn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Name = "LogIn";
             this.Text = "LogIn";
+            this.Load += new System.EventHandler(this.LogIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,6 +103,6 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button loginLogIn;
     }
 }

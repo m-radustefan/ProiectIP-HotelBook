@@ -1,0 +1,9 @@
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.csproj.AssemblyReference.cache
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBoo.D9FC009C.Up2Date
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.pdb

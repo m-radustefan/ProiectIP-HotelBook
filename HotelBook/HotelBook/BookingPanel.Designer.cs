@@ -33,8 +33,8 @@
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bookBookingPanel = new System.Windows.Forms.Button();
+            this.backBookingPanel = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,7 +60,7 @@
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(109, 32);
+            this.richTextBox3.Location = new System.Drawing.Point(124, 32);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(458, 96);
             this.richTextBox3.TabIndex = 2;
@@ -82,23 +82,25 @@
             this.richTextBox5.TabIndex = 4;
             this.richTextBox5.Text = "";
             // 
-            // button1
+            // bookBookingPanel
             // 
-            this.button1.Location = new System.Drawing.Point(626, 149);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 56);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "BOOK";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bookBookingPanel.Location = new System.Drawing.Point(626, 149);
+            this.bookBookingPanel.Name = "bookBookingPanel";
+            this.bookBookingPanel.Size = new System.Drawing.Size(145, 56);
+            this.bookBookingPanel.TabIndex = 5;
+            this.bookBookingPanel.Text = "BOOK";
+            this.bookBookingPanel.UseVisualStyleBackColor = true;
+            this.bookBookingPanel.Click += new System.EventHandler(this.bookBookingPanel_Click);
             // 
-            // button2
+            // backBookingPanel
             // 
-            this.button2.Location = new System.Drawing.Point(626, 376);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 52);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "BACK";
-            this.button2.UseVisualStyleBackColor = true;
+            this.backBookingPanel.Location = new System.Drawing.Point(626, 376);
+            this.backBookingPanel.Name = "backBookingPanel";
+            this.backBookingPanel.Size = new System.Drawing.Size(145, 52);
+            this.backBookingPanel.TabIndex = 6;
+            this.backBookingPanel.Text = "BACK";
+            this.backBookingPanel.UseVisualStyleBackColor = true;
+            this.backBookingPanel.Click += new System.EventHandler(this.backBookingPanel_Click);
             // 
             // label1
             // 
@@ -145,8 +147,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.backBookingPanel);
+            this.Controls.Add(this.bookBookingPanel);
             this.Controls.Add(this.richTextBox5);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox3);
@@ -166,8 +168,8 @@
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bookBookingPanel;
+        private System.Windows.Forms.Button backBookingPanel;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

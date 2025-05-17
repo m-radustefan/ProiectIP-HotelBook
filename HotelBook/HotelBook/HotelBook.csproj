@@ -124,5 +124,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBook.Domain\HotelBook.Domain.csproj">
+      <Project>{9ea258d1-fe98-4e63-a797-3cbbd1a0c50e}</Project>
+      <Name>HotelBook.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelBook.Services\HotelBook.Services.csproj">
+      <Project>{84feea09-813c-4a0b-9a34-b5ceb114dc68}</Project>
+      <Name>HotelBook.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

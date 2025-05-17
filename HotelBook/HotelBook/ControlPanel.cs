@@ -22,7 +22,22 @@ namespace HotelBook
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void checkoutControlPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bookedControlPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void readytobookControlPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backControlPanel_Click(object sender, EventArgs e)
         {
 
         }

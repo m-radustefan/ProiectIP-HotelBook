@@ -17,12 +17,17 @@ namespace HotelBook
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void backAdminRegister_Click(object sender, EventArgs e)
         {
 
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void submitAdminRegister_Click(object sender, EventArgs e)
         {
 
         }

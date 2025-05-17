@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="HotelBook.Domain">
+      <HintPath>bin\Debug\net8.0\HotelBook.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

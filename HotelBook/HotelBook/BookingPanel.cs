@@ -16,5 +16,15 @@ namespace HotelBook
         {
             InitializeComponent();
         }
+
+        private void bookBookingPanel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backBookingPanel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

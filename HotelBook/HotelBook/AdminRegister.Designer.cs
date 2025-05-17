@@ -32,8 +32,8 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.submitAdminRegister = new System.Windows.Forms.Button();
+            this.backAdminRegister = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -78,26 +78,27 @@
             this.richTextBox4.TabIndex = 3;
             this.richTextBox4.Text = "";
             // 
-            // button1
+            // submitAdminRegister
             // 
-            this.button1.Location = new System.Drawing.Point(536, 217);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 48);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "SUBMIT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.submitAdminRegister.Location = new System.Drawing.Point(536, 217);
+            this.submitAdminRegister.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.submitAdminRegister.Name = "submitAdminRegister";
+            this.submitAdminRegister.Size = new System.Drawing.Size(126, 48);
+            this.submitAdminRegister.TabIndex = 5;
+            this.submitAdminRegister.Text = "SUBMIT";
+            this.submitAdminRegister.UseVisualStyleBackColor = true;
+            this.submitAdminRegister.Click += new System.EventHandler(this.submitAdminRegister_Click);
             // 
-            // button2
+            // backAdminRegister
             // 
-            this.button2.Location = new System.Drawing.Point(1010, 598);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 49);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "BACK";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.backAdminRegister.Location = new System.Drawing.Point(1010, 598);
+            this.backAdminRegister.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.backAdminRegister.Name = "backAdminRegister";
+            this.backAdminRegister.Size = new System.Drawing.Size(135, 49);
+            this.backAdminRegister.TabIndex = 6;
+            this.backAdminRegister.Text = "BACK";
+            this.backAdminRegister.UseVisualStyleBackColor = true;
+            this.backAdminRegister.Click += new System.EventHandler(this.backAdminRegister_Click);
             // 
             // label1
             // 
@@ -169,8 +170,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.backAdminRegister);
+            this.Controls.Add(this.submitAdminRegister);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
@@ -189,8 +190,8 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button submitAdminRegister;
+        private System.Windows.Forms.Button backAdminRegister;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

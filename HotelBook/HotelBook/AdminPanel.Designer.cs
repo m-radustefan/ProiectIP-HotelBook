@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.addAdminPanel = new System.Windows.Forms.Button();
+            this.removeAdminPanel = new System.Windows.Forms.Button();
+            this.backAdminPanel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -42,41 +42,44 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
-            // button1
+            // addAdminPanel
             // 
-            this.button1.Location = new System.Drawing.Point(644, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 67);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "ADD";
-            this.button1.UseVisualStyleBackColor = true;
+            this.addAdminPanel.Location = new System.Drawing.Point(644, 65);
+            this.addAdminPanel.Name = "addAdminPanel";
+            this.addAdminPanel.Size = new System.Drawing.Size(135, 67);
+            this.addAdminPanel.TabIndex = 1;
+            this.addAdminPanel.Text = "ADD";
+            this.addAdminPanel.UseVisualStyleBackColor = true;
+            this.addAdminPanel.Click += new System.EventHandler(this.addAdminPanel_Click);
             // 
-            // button2
+            // removeAdminPanel
             // 
-            this.button2.Location = new System.Drawing.Point(644, 186);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 62);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "REMOVE";
-            this.button2.UseVisualStyleBackColor = true;
+            this.removeAdminPanel.Location = new System.Drawing.Point(644, 186);
+            this.removeAdminPanel.Name = "removeAdminPanel";
+            this.removeAdminPanel.Size = new System.Drawing.Size(135, 62);
+            this.removeAdminPanel.TabIndex = 2;
+            this.removeAdminPanel.Text = "REMOVE";
+            this.removeAdminPanel.UseVisualStyleBackColor = true;
+            this.removeAdminPanel.Click += new System.EventHandler(this.removeAdminPanel_Click);
             // 
-            // button3
+            // backAdminPanel
             // 
-            this.button3.Location = new System.Drawing.Point(711, 446);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 68);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "BACK";
-            this.button3.UseVisualStyleBackColor = true;
+            this.backAdminPanel.Location = new System.Drawing.Point(711, 446);
+            this.backAdminPanel.Name = "backAdminPanel";
+            this.backAdminPanel.Size = new System.Drawing.Size(149, 68);
+            this.backAdminPanel.TabIndex = 3;
+            this.backAdminPanel.Text = "BACK";
+            this.backAdminPanel.UseVisualStyleBackColor = true;
+            this.backAdminPanel.Click += new System.EventHandler(this.backAdminPanel_Click);
             // 
             // AdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 526);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.backAdminPanel);
+            this.Controls.Add(this.removeAdminPanel);
+            this.Controls.Add(this.addAdminPanel);
             this.Controls.Add(this.richTextBox1);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
@@ -87,8 +90,8 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button addAdminPanel;
+        private System.Windows.Forms.Button removeAdminPanel;
+        private System.Windows.Forms.Button backAdminPanel;
     }
 }

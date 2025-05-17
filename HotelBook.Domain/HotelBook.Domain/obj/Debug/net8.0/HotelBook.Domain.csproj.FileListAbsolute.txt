@@ -1,0 +1,12 @@
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\bin\Debug\net8.0\HotelBook.Domain.deps.json
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\bin\Debug\net8.0\HotelBook.Domain.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\bin\Debug\net8.0\HotelBook.Domain.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.AssemblyInfo.cs
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.sourcelink.json
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\refint\HotelBook.Domain.dll
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\HotelBook.Domain.pdb
+D:\Facultate\Anul3\IP\ProiectIP-HotelBook\HotelBook.Domain\HotelBook.Domain\obj\Debug\net8.0\ref\HotelBook.Domain.dll
