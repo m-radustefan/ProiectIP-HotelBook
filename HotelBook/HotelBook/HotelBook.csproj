@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AdminPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRegister.Designer.cs">
+      <DependentUpon>AdminRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingPanel.Designer.cs">
+      <DependentUpon>BookingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlPanel.Designer.cs">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
