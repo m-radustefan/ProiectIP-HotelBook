@@ -1,0 +1,18 @@
+/**************************************************************************
+ *                                                                        *
+ *  File:        MagicBuilder.cs                                          *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa MagicBuilder, care          *
+ *  construiește pătrate magice de dimensiuni variabile. Metodele sale    *
+ *  generează matrice pătratice cu proprietatea că suma elementelor pe    *
+ *  pe fiecare rând, coloană și diagonală este constantă.                 *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
