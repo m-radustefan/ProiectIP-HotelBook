@@ -37,9 +37,10 @@
             // 
             // addAdminPanel
             // 
-            this.addAdminPanel.Location = new System.Drawing.Point(1103, 45);
+            this.addAdminPanel.Location = new System.Drawing.Point(980, 36);
+            this.addAdminPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addAdminPanel.Name = "addAdminPanel";
-            this.addAdminPanel.Size = new System.Drawing.Size(135, 67);
+            this.addAdminPanel.Size = new System.Drawing.Size(120, 54);
             this.addAdminPanel.TabIndex = 1;
             this.addAdminPanel.Text = "ADD";
             this.addAdminPanel.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // removeAdminPanel
             // 
-            this.removeAdminPanel.Location = new System.Drawing.Point(1103, 166);
+            this.removeAdminPanel.Location = new System.Drawing.Point(980, 133);
+            this.removeAdminPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.removeAdminPanel.Name = "removeAdminPanel";
-            this.removeAdminPanel.Size = new System.Drawing.Size(135, 62);
+            this.removeAdminPanel.Size = new System.Drawing.Size(120, 50);
             this.removeAdminPanel.TabIndex = 2;
             this.removeAdminPanel.Text = "REMOVE";
             this.removeAdminPanel.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             // backAdminPanel
             // 
-            this.backAdminPanel.Location = new System.Drawing.Point(1103, 431);
+            this.backAdminPanel.Location = new System.Drawing.Point(980, 345);
+            this.backAdminPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backAdminPanel.Name = "backAdminPanel";
-            this.backAdminPanel.Size = new System.Drawing.Size(135, 68);
+            this.backAdminPanel.Size = new System.Drawing.Size(120, 54);
             this.backAdminPanel.TabIndex = 3;
             this.backAdminPanel.Text = "BACK";
             this.backAdminPanel.UseVisualStyleBackColor = true;
@@ -68,24 +71,26 @@
             // dataGridViewEmployees
             // 
             this.dataGridViewEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewEmployees.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewEmployees.Location = new System.Drawing.Point(11, 10);
+            this.dataGridViewEmployees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewEmployees.Name = "dataGridViewEmployees";
             this.dataGridViewEmployees.RowHeadersWidth = 62;
             this.dataGridViewEmployees.RowTemplate.Height = 28;
-            this.dataGridViewEmployees.Size = new System.Drawing.Size(1009, 502);
+            this.dataGridViewEmployees.Size = new System.Drawing.Size(897, 402);
             this.dataGridViewEmployees.TabIndex = 4;
             this.dataGridViewEmployees.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEmployees_CellContentClick);
             // 
             // AdminPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1287, 526);
+            this.BackColor = System.Drawing.Color.OldLace;
+            this.ClientSize = new System.Drawing.Size(1144, 421);
             this.Controls.Add(this.dataGridViewEmployees);
             this.Controls.Add(this.backAdminPanel);
             this.Controls.Add(this.removeAdminPanel);
             this.Controls.Add(this.addAdminPanel);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
             this.Load += new System.EventHandler(this.AdminPanel_Load);

@@ -37,9 +37,10 @@
             // 
             // logout
             // 
-            this.logout.Location = new System.Drawing.Point(295, 458);
+            this.logout.Location = new System.Drawing.Point(262, 366);
+            this.logout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logout.Name = "logout";
-            this.logout.Size = new System.Drawing.Size(168, 66);
+            this.logout.Size = new System.Drawing.Size(149, 53);
             this.logout.TabIndex = 2;
             this.logout.Text = "LOG OUT";
             this.logout.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // admin
             // 
-            this.admin.Location = new System.Drawing.Point(295, 168);
+            this.admin.Location = new System.Drawing.Point(262, 134);
+            this.admin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.admin.Name = "admin";
-            this.admin.Size = new System.Drawing.Size(168, 66);
+            this.admin.Size = new System.Drawing.Size(149, 53);
             this.admin.TabIndex = 4;
             this.admin.Text = "ADMIN";
             this.admin.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             // control
             // 
-            this.control.Location = new System.Drawing.Point(295, 72);
+            this.control.Location = new System.Drawing.Point(262, 58);
+            this.control.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.control.Name = "control";
-            this.control.Size = new System.Drawing.Size(168, 66);
+            this.control.Size = new System.Drawing.Size(149, 53);
             this.control.TabIndex = 5;
             this.control.Text = "CONTROL";
             this.control.UseVisualStyleBackColor = true;
@@ -67,9 +70,10 @@
             // 
             // rooms
             // 
-            this.rooms.Location = new System.Drawing.Point(295, 268);
+            this.rooms.Location = new System.Drawing.Point(262, 214);
+            this.rooms.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rooms.Name = "rooms";
-            this.rooms.Size = new System.Drawing.Size(168, 66);
+            this.rooms.Size = new System.Drawing.Size(149, 53);
             this.rooms.TabIndex = 7;
             this.rooms.Text = "ROOMS";
             this.rooms.UseVisualStyleBackColor = true;
@@ -77,9 +81,10 @@
             // 
             // reservations
             // 
-            this.reservations.Location = new System.Drawing.Point(295, 371);
+            this.reservations.Location = new System.Drawing.Point(262, 297);
+            this.reservations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reservations.Name = "reservations";
-            this.reservations.Size = new System.Drawing.Size(168, 66);
+            this.reservations.Size = new System.Drawing.Size(149, 53);
             this.reservations.TabIndex = 8;
             this.reservations.Text = "RESERVATIONS";
             this.reservations.UseVisualStyleBackColor = true;
@@ -87,14 +92,16 @@
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 640);
+            this.BackColor = System.Drawing.Color.OldLace;
+            this.ClientSize = new System.Drawing.Size(711, 512);
             this.Controls.Add(this.reservations);
             this.Controls.Add(this.rooms);
             this.Controls.Add(this.control);
             this.Controls.Add(this.admin);
             this.Controls.Add(this.logout);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Home";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Home_Load);

@@ -40,43 +40,46 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(224, 93);
+            this.richTextBox1.Location = new System.Drawing.Point(199, 74);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(353, 42);
+            this.richTextBox1.Size = new System.Drawing.Size(314, 34);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(224, 186);
+            this.richTextBox2.Location = new System.Drawing.Point(199, 149);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(353, 42);
+            this.richTextBox2.Size = new System.Drawing.Size(314, 34);
             this.richTextBox2.TabIndex = 2;
             this.richTextBox2.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 105);
+            this.label1.Location = new System.Drawing.Point(58, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 20);
+            this.label1.Size = new System.Drawing.Size(84, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "USERNAME";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 198);
+            this.label2.Location = new System.Drawing.Point(58, 158);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 20);
+            this.label2.Size = new System.Drawing.Size(86, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "PASSWORD";
             // 
             // loginLogIn
             // 
-            this.loginLogIn.Location = new System.Drawing.Point(319, 290);
+            this.loginLogIn.Location = new System.Drawing.Point(284, 232);
+            this.loginLogIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginLogIn.Name = "loginLogIn";
-            this.loginLogIn.Size = new System.Drawing.Size(156, 46);
+            this.loginLogIn.Size = new System.Drawing.Size(139, 37);
             this.loginLogIn.TabIndex = 6;
             this.loginLogIn.Text = "LOG IN";
             this.loginLogIn.UseVisualStyleBackColor = true;
@@ -84,9 +87,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(665, 391);
+            this.button2.Location = new System.Drawing.Point(591, 313);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 47);
+            this.button2.Size = new System.Drawing.Size(109, 38);
             this.button2.TabIndex = 8;
             this.button2.Text = "IESIRE";
             this.button2.UseVisualStyleBackColor = true;
@@ -95,17 +99,19 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HotelBook.Properties.Resources.hotel;
-            this.pictureBox1.Location = new System.Drawing.Point(631, 66);
+            this.pictureBox1.Location = new System.Drawing.Point(561, 53);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 252);
+            this.pictureBox1.Size = new System.Drawing.Size(111, 202);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // LogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 457);
+            this.BackColor = System.Drawing.Color.OldLace;
+            this.ClientSize = new System.Drawing.Size(721, 366);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.loginLogIn);
@@ -113,6 +119,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LogIn";
             this.Text = "LogIn";
             this.Load += new System.EventHandler(this.LogIn_Load);

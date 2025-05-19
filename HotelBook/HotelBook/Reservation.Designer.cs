@@ -36,19 +36,21 @@
             // dataGridReservation
             // 
             this.dataGridReservation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridReservation.Location = new System.Drawing.Point(43, 31);
+            this.dataGridReservation.Location = new System.Drawing.Point(38, 25);
+            this.dataGridReservation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridReservation.Name = "dataGridReservation";
             this.dataGridReservation.RowHeadersWidth = 62;
             this.dataGridReservation.RowTemplate.Height = 28;
-            this.dataGridReservation.Size = new System.Drawing.Size(794, 372);
+            this.dataGridReservation.Size = new System.Drawing.Size(706, 298);
             this.dataGridReservation.TabIndex = 0;
             this.dataGridReservation.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridReservation_CellContentClick);
             // 
             // backReservation
             // 
-            this.backReservation.Location = new System.Drawing.Point(752, 438);
+            this.backReservation.Location = new System.Drawing.Point(668, 350);
+            this.backReservation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backReservation.Name = "backReservation";
-            this.backReservation.Size = new System.Drawing.Size(112, 56);
+            this.backReservation.Size = new System.Drawing.Size(100, 45);
             this.backReservation.TabIndex = 1;
             this.backReservation.Text = "BACK";
             this.backReservation.UseVisualStyleBackColor = true;
@@ -56,11 +58,13 @@
             // 
             // Reservation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 506);
+            this.BackColor = System.Drawing.Color.OldLace;
+            this.ClientSize = new System.Drawing.Size(779, 405);
             this.Controls.Add(this.backReservation);
             this.Controls.Add(this.dataGridReservation);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Reservation";
             this.Text = "Reservation";
             this.Load += new System.EventHandler(this.Reservation_Load);
