@@ -26,6 +26,8 @@ namespace HotelBook.Services
         public static IEnumerable<Room> GetAll() => _repo.GetAll();
         public static void Update(Room r) => _repo.Update(r);
         public static void Add(Room r) => _repo.Add(r);   // ← nou
+        public static void Remove(int id) => _repo.Remove(id);
+
     }
 }
 

@@ -11,6 +11,8 @@ namespace HotelBook.Data
     {
         IEnumerable<Room> GetAll();
         void Update(Room room);
-        void Add(Room room);            // ← nou
+        void Add(Room room);
+        void Remove(int id);
+
     }
 }

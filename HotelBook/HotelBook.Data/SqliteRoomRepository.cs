@@ -102,4 +102,34 @@ public sealed class SqliteRoomRepository : IRoomRepository
             }
         }
     }
+
+    public void Remove(int id)
+    {
+        using (var c = new SQLiteConnection(_cs))
+        {
+            c.Open();
+            using (var tx = c.BeginTransaction())
+            using (var cmd = c.CreateCommand())
+            {
+                // 1) Şterge camera cu ID-ul respectiv
+                cmd.CommandText = "DELETE FROM Rooms WHERE Id = @id;";
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+
+                // 2) Rearanjează PK-urile: scade cu 1 toate Id‐urile mai mari
+                cmd.Parameters.Clear();
+                cmd.CommandText = "UPDATE Rooms SET Id = Id - 1 WHERE Id > @id;";
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+
+                // 3) Resetează AUTOINCREMENT ca să continue corect
+                cmd.Parameters.Clear();
+                cmd.CommandText = "DELETE FROM sqlite_sequence WHERE name='Rooms';";
+                cmd.ExecuteNonQuery();
+
+                tx.Commit();
+            }
+        }
+    }
+
 }

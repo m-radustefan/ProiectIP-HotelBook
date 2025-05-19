@@ -60,12 +60,13 @@ namespace HotelBook
 
         private void backReservation_Click(object sender, EventArgs e)
         {
-            // Înapoi în ControlPanel
+            // Navighează direct la Home
             Hide();
-            using (var cp = new ControlPanel())
-                cp.ShowDialog(this);
+            using (var home = new Home())
+                home.ShowDialog(this);
             Close();
         }
+
 
         // Handler gol
         private void dataGridReservation_CellContentClick(object sender, DataGridViewCellEventArgs e) { }

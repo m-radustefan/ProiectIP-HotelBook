@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.logout = new System.Windows.Forms.Button();
-            this.register = new System.Windows.Forms.Button();
             this.admin = new System.Windows.Forms.Button();
             this.control = new System.Windows.Forms.Button();
             this.rooms = new System.Windows.Forms.Button();
@@ -46,19 +45,9 @@
             this.logout.UseVisualStyleBackColor = true;
             this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
-            // register
-            // 
-            this.register.Location = new System.Drawing.Point(295, 205);
-            this.register.Name = "register";
-            this.register.Size = new System.Drawing.Size(168, 66);
-            this.register.TabIndex = 3;
-            this.register.Text = "REGISTER";
-            this.register.UseVisualStyleBackColor = true;
-            this.register.Click += new System.EventHandler(this.register_Click);
-            // 
             // admin
             // 
-            this.admin.Location = new System.Drawing.Point(295, 121);
+            this.admin.Location = new System.Drawing.Point(295, 168);
             this.admin.Name = "admin";
             this.admin.Size = new System.Drawing.Size(168, 66);
             this.admin.TabIndex = 4;
@@ -68,7 +57,7 @@
             // 
             // control
             // 
-            this.control.Location = new System.Drawing.Point(295, 39);
+            this.control.Location = new System.Drawing.Point(295, 72);
             this.control.Name = "control";
             this.control.Size = new System.Drawing.Size(168, 66);
             this.control.TabIndex = 5;
@@ -78,7 +67,7 @@
             // 
             // rooms
             // 
-            this.rooms.Location = new System.Drawing.Point(295, 289);
+            this.rooms.Location = new System.Drawing.Point(295, 268);
             this.rooms.Name = "rooms";
             this.rooms.Size = new System.Drawing.Size(168, 66);
             this.rooms.TabIndex = 7;
@@ -105,7 +94,6 @@
             this.Controls.Add(this.rooms);
             this.Controls.Add(this.control);
             this.Controls.Add(this.admin);
-            this.Controls.Add(this.register);
             this.Controls.Add(this.logout);
             this.Name = "Home";
             this.Text = "Form1";
@@ -116,7 +104,6 @@
 
         #endregion
         private System.Windows.Forms.Button logout;
-        private System.Windows.Forms.Button register;
         private System.Windows.Forms.Button admin;
         private System.Windows.Forms.Button control;
         private System.Windows.Forms.Button rooms;
