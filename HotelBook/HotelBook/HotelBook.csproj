@@ -103,6 +103,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
     <Compile Include="RoomPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,7 +141,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoomPanel.resx">
       <DependentUpon>RoomPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +176,9 @@
       <Project>{84feea09-813c-4a0b-9a34-b5ceb114dc68}</Project>
       <Name>HotelBook.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -44,6 +44,7 @@ namespace HotelBook
             // Obținem lista de camere și o legăm la grid
             var list = RoomService.GetAll().ToList();
             dataGridView1.DataSource = list;
+            dataGridView1.Columns["Price"].HeaderText = "Price (€)";
         }
 
         // Helper: preia obiectul Room de pe rândul selectat
@@ -62,36 +63,29 @@ namespace HotelBook
             var room = GetSelectedRoom();
             if (room == null)
             {
-                MessageBox.Show(
-                    "Selectați mai întâi o cameră.",
-                    "Atentie",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
-                );
+                MessageBox.Show("Selectați mai întâi o cameră.", "Atentie",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (room.Status != RoomStatus.ReadyToBook)
             {
-                MessageBox.Show(
-                    "Eroare: doar camerele cu status 'ReadyToBook' pot fi marcate 'Booked'.",
-                    "Operație nepermisă",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                );
+                MessageBox.Show("Eroare: doar camerele cu status 'ReadyToBook' pot fi rezervate.",
+                                "Operație nepermisă",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error);
                 return;
             }
 
-            // schimbăm status, salvăm și refresh
-            room.Status = RoomStatus.Booked;
-            RoomService.Update(room);
-            LoadRooms();
+            // **FĂRĂ** room.Status = Booked și fără RoomService.Update aici!
 
-            // navigăm în BookingPanel
             Hide();
-            using (var bp = new BookingPanel())
+            using (var bp = new BookingPanel(room))
                 bp.ShowDialog(this);
             Show();
+
+            // După ce BookingPanel se închide, reapelăm LoadRooms() ca să vedem schimbările făcute acolo
+            LoadRooms();
         }
 
         private void checkoutControlPanel_Click(object sender, EventArgs e)
@@ -99,30 +93,31 @@ namespace HotelBook
             var room = GetSelectedRoom();
             if (room == null)
             {
-                MessageBox.Show(
-                    "Selectați mai întâi o cameră.",
-                    "Atentie",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
-                );
+                MessageBox.Show("Selectați mai întâi o cameră.", "Atentie",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (room.Status != RoomStatus.Booked)
             {
-                MessageBox.Show(
-                    "Eroare: doar camerele cu status 'Booked' pot face 'Check Out'.",
-                    "Operație nepermisă",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                );
+                MessageBox.Show("Eroare: doar camerele cu status 'Booked' pot face 'Check Out'.",
+                                "Operație nepermisă",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error);
                 return;
             }
 
+            // 1) schimbăm status
             room.Status = RoomStatus.CheckOut;
             RoomService.Update(room);
+
+            // 2) ştergem rezervarea asociată
+            ReservationService.RemoveByRoom(room.Id);
+
+            // 3) reîncărcăm grila
             LoadRooms();
         }
+
 
         private void readytobookControlPanel_Click(object sender, EventArgs e)
         {

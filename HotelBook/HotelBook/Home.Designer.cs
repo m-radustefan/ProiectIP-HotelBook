@@ -32,13 +32,13 @@
             this.register = new System.Windows.Forms.Button();
             this.admin = new System.Windows.Forms.Button();
             this.control = new System.Windows.Forms.Button();
-            this.booking = new System.Windows.Forms.Button();
             this.rooms = new System.Windows.Forms.Button();
+            this.reservations = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // logout
             // 
-            this.logout.Location = new System.Drawing.Point(295, 472);
+            this.logout.Location = new System.Drawing.Point(295, 458);
             this.logout.Name = "logout";
             this.logout.Size = new System.Drawing.Size(168, 66);
             this.logout.TabIndex = 2;
@@ -48,7 +48,7 @@
             // 
             // register
             // 
-            this.register.Location = new System.Drawing.Point(295, 299);
+            this.register.Location = new System.Drawing.Point(295, 205);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(168, 66);
             this.register.TabIndex = 3;
@@ -58,7 +58,7 @@
             // 
             // admin
             // 
-            this.admin.Location = new System.Drawing.Point(295, 211);
+            this.admin.Location = new System.Drawing.Point(295, 121);
             this.admin.Name = "admin";
             this.admin.Size = new System.Drawing.Size(168, 66);
             this.admin.TabIndex = 4;
@@ -76,19 +76,9 @@
             this.control.UseVisualStyleBackColor = true;
             this.control.Click += new System.EventHandler(this.control_Click);
             // 
-            // booking
-            // 
-            this.booking.Location = new System.Drawing.Point(295, 125);
-            this.booking.Name = "booking";
-            this.booking.Size = new System.Drawing.Size(168, 66);
-            this.booking.TabIndex = 6;
-            this.booking.Text = "BOOKING";
-            this.booking.UseVisualStyleBackColor = true;
-            this.booking.Click += new System.EventHandler(this.booking_Click);
-            // 
             // rooms
             // 
-            this.rooms.Location = new System.Drawing.Point(295, 388);
+            this.rooms.Location = new System.Drawing.Point(295, 289);
             this.rooms.Name = "rooms";
             this.rooms.Size = new System.Drawing.Size(168, 66);
             this.rooms.TabIndex = 7;
@@ -96,13 +86,23 @@
             this.rooms.UseVisualStyleBackColor = true;
             this.rooms.Click += new System.EventHandler(this.rooms_Click);
             // 
+            // reservations
+            // 
+            this.reservations.Location = new System.Drawing.Point(295, 371);
+            this.reservations.Name = "reservations";
+            this.reservations.Size = new System.Drawing.Size(168, 66);
+            this.reservations.TabIndex = 8;
+            this.reservations.Text = "RESERVATIONS";
+            this.reservations.UseVisualStyleBackColor = true;
+            this.reservations.Click += new System.EventHandler(this.reservations_Click_1);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 560);
+            this.ClientSize = new System.Drawing.Size(800, 640);
+            this.Controls.Add(this.reservations);
             this.Controls.Add(this.rooms);
-            this.Controls.Add(this.booking);
             this.Controls.Add(this.control);
             this.Controls.Add(this.admin);
             this.Controls.Add(this.register);
@@ -119,8 +119,8 @@
         private System.Windows.Forms.Button register;
         private System.Windows.Forms.Button admin;
         private System.Windows.Forms.Button control;
-        private System.Windows.Forms.Button booking;
         private System.Windows.Forms.Button rooms;
+        private System.Windows.Forms.Button reservations;
     }
 }
 

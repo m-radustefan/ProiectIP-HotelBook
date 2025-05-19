@@ -35,22 +35,46 @@ namespace HotelBook
 
             Role role = SessionManager.CurrentUser.Role;
 
-            bool isAdmin = role == Role.Admin;
+            // Închidem toate butoanele (în afară de Logout, care rămâne mereu vizibil)
+            control.Visible = control.Enabled = false;
+            admin.Visible = admin.Enabled = false;
+            register.Visible = register.Enabled = false;
+            rooms.Visible = rooms.Enabled = false;
+            logout.Visible = logout.Enabled = true;
 
-            admin.Visible = admin.Enabled = isAdmin;
-            register.Visible = register.Enabled = isAdmin;
+            switch (role)
+            {
+                case Role.Admin:
+                    // Admin are acces la tot
+                    control.Visible = control.Enabled = true;
+                    admin.Visible = admin.Enabled = true;
+                    register.Visible = register.Enabled = true;
+                    rooms.Visible = rooms.Enabled = true;
+                    break;
+
+                case Role.Cleaner:
+                    // Cleaner: doar Control, Rooms și Logout
+                    control.Visible = control.Enabled = true;
+                    rooms.Visible = rooms.Enabled = true;
+                    break;
+
+                case Role.Receptionist:
+                    // Receptionist: Control, Rooms și (dacă vrei) Register + Logout
+                    control.Visible = control.Enabled = true;
+                    rooms.Visible = rooms.Enabled = true;
+                    break;
+
+                    // poți adăuga și alte roluri după nevoie
+            }
         }
+
+
 
         // ------------  NAVIGAŢIE  ----------------------------------
 
         private void control_Click(object sender, EventArgs e)
         {
             NavigateTo(new ControlPanel());   // Control → ControlPanel
-        }
-
-        private void booking_Click(object sender, EventArgs e)
-        {
-            NavigateTo(new BookingPanel());   // Booking → BookingPanel
         }
 
         private void admin_Click(object sender, EventArgs e)
@@ -80,6 +104,7 @@ namespace HotelBook
             Close();
         }
 
+
         /// <summary>
         /// Ascunde fereastra curentă, arată target Form ca dialog modal şi revine.
         /// </summary>
@@ -90,6 +115,14 @@ namespace HotelBook
             {
                 target.ShowDialog(this);
             }
+            Show();
+        }
+
+        private void reservations_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            using (var rp = new Reservation())
+                rp.ShowDialog(this);
             Show();
         }
     }

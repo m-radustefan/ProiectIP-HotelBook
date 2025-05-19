@@ -32,6 +32,8 @@
             this.addRoomPanel = new System.Windows.Forms.Button();
             this.backRoomPanel = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -72,11 +74,31 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(138, 161);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Price";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(216, 149);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(171, 32);
+            this.richTextBox2.TabIndex = 5;
+            this.richTextBox2.Text = "";
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
+            // 
             // RoomPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.backRoomPanel);
             this.Controls.Add(this.addRoomPanel);
@@ -95,5 +117,7 @@
         private System.Windows.Forms.Button addRoomPanel;
         private System.Windows.Forms.Button backRoomPanel;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }

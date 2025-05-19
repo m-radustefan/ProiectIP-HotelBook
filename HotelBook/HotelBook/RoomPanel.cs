@@ -29,35 +29,37 @@ namespace HotelBook
             string type = richTextBox1.Text.Trim();
             if (string.IsNullOrEmpty(type))
             {
-                MessageBox.Show(
-                    "Tipul camerei este obligatoriu.",
-                    "Eroare",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
-                );
+                MessageBox.Show("Tipul camerei este obligatoriu.", "Eroare",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 richTextBox1.Focus();
                 return;
             }
 
-            // creăm și salvăm camera
+            // parse price
+            if (!double.TryParse(richTextBox2.Text.Trim(), out double price) || price < 0)
+            {
+                MessageBox.Show("Preț invalid. Introdu o valoare numerică ≥ 0.", "Eroare",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                richTextBox2.Focus();
+                return;
+            }
+
             var room = new Room
             {
                 Type = type,
-                Status = RoomStatus.ReadyToBook
+                Status = RoomStatus.ReadyToBook,
+                Price = price     // setăm și prețul
             };
             RoomService.Add(room);
 
-            // **Alertă de succes**:
-            MessageBox.Show(
-                "Camera a fost adăugată cu succes!",
-                "Succes",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            MessageBox.Show("Camera a fost adăugată cu succes!", "Succes",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             richTextBox1.Clear();
+            richTextBox2.Clear();
             richTextBox1.Focus();
         }
+
 
 
         private void backRoomPanel_Click(object sender, EventArgs e)
@@ -74,5 +76,9 @@ namespace HotelBook
         // dacă ai generat accident în Designer, poţi lăsa goale:
         private void richTextBox1_TextChanged(object sender, EventArgs e) { }
 
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

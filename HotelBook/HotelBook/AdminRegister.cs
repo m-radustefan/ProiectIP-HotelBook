@@ -17,10 +17,17 @@ namespace HotelBook
         public AdminRegister()
         {
             InitializeComponent();
+
             comboBox1.Items.Clear();
-            comboBox1.Items.AddRange(new[] { "Admin", "Test" });
+            comboBox1.Items.AddRange(new[]
+            {
+                Role.Admin.ToString(),
+                Role.Cleaner.ToString(),
+                Role.Receptionist.ToString()
+            });
             comboBox1.SelectedIndex = 0;
         }
+
 
         private void AdminRegister_Load(object sender, EventArgs e)
         {
@@ -68,8 +75,12 @@ namespace HotelBook
             }
 
             // 3. Parse role
-            if (!Enum.TryParse<Role>(comboBox1.SelectedItem.ToString(), true, out Role rol))
+            if (!Enum.TryParse<Role>(
+                    comboBox1.SelectedItem.ToString(),
+                    true,
+                    out Role rol))
                 rol = Role.Admin;
+
 
             // 4. Adaug în baza SQLite
             var emp = new Employee
