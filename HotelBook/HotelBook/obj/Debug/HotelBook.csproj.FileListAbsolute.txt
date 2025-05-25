@@ -68,3 +68,39 @@ C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\De
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.Up2Date
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.exe
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.exe.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.exe
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.SqlServer.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.EF6.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.Linq.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.SqlServer.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.AssemblyReference.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.SuggestedBindingRedirects.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.AdminPanel.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.AdminRegister.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.BookingPanel.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.ControlPanel.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Home.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.LogIn.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Properties.Resources.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Reservation.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.RoomPanel.resources
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.GenerateResource.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.CoreCompileInputs.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.CopyComplete
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.exe
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.pdb

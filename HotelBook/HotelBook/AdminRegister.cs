@@ -1,4 +1,26 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        AdminRegister.cs                                         *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa AdminRegister, care         *
+ *  gestionează interfața pentru înregistrarea angajaților noi în         *
+ *  aplicația HotelBook. Include validarea datelor, verificarea           *
+ *  duplicatelor, atribuirea rolurilor și adăugarea angajaților în baza   *
+ *  de date SQLite.                                                       *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

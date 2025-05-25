@@ -1,4 +1,26 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        RoomPanel.cs                                             *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește formularul RoomPanel, care        *
+ *  permite adăugarea și ștergerea camerelor din aplicația de gestionare  *
+ *  a rezervărilor hoteliere. Interfața grafică oferă controale pentru    *
+ *  introducerea tipului și prețului camerei, precum și pentru eliminarea *
+ *  unei camere după ID,                                                  *
+ *  cu validări și mesaje de feedback pentru utilizator.                  *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

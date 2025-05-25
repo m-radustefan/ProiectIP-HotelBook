@@ -30,3 +30,19 @@ C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBoo.94F1B221.Up2Date
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.dll
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\HotelBook.Domain.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\HotelBook.Domain.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\HotelBook.Domain.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.EF6.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.Linq.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\bin\Debug\System.Data.SQLite.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.csproj.AssemblyReference.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.csproj.CoreCompileInputs.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.csproj.CopyComplete
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Domain\obj\Debug\HotelBook.Domain.pdb

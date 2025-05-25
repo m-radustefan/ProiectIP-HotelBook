@@ -52,3 +52,30 @@ C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\o
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBoo.3266E5CB.Up2Date
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.dll
 C:\Users\Xixica\Desktop\ProiectIP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Buffers.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.EF6.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.Linq.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Memory.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Numerics.Vectors.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.pdb
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll.config
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Buffers.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Memory.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Numerics.Vectors.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.AssemblyReference.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.CoreCompileInputs.cache
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.CopyComplete
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.dll
+D:\An 3\IP_PRJ\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.pdb
