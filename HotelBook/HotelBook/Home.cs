@@ -1,4 +1,25 @@
-﻿using System;
+﻿/***************************************************************************
+ *                                                                         *
+ *  File:        Home.cs                                                   *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                           *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                   *
+ *  Description: Formularul principal Home oferă interfața de navigație    *
+ *  pentru utilizatorii autentificați în aplicația HotelBook. Accesul la   *
+ *  diferitele secțiuni (admin, camere, rezervări, control) este controlat *
+ *  pe baza rolului utilizatorului (Admin, Recepționer, Curățenie etc).    *
+ *  Funcționalitatea include și deconectarea utilizatorului.               *
+ *                                                                         *
+ *  This program is free software; you can redistribute it and/or modify   *
+ *  it under the terms of the GNU General Public License as published by   *
+ *  the Free Software Foundation. This program is distributed in the       *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even    *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR    *
+ *  PURPOSE. See the GNU General Public License for more details.          *
+ *                                                                         *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,16 +36,19 @@ namespace HotelBook
 {
     public partial class Home : Form
     {
+        // Constructorul formularului Home – initializeaza interfata si configureaza accesul pe baza rolului
         public Home()
         {
             InitializeComponent();
             ConfigureAccessControls();
         }
+        // Eveniment apelat la incarcarea formularului – reaplica regulile de acces
 
         private void Home_Load(object sender, EventArgs e)
         {
             ConfigureAccessControls();
         }
+        // Configureaza butoanele din interfata in functie de rolul utilizatorului autentificat
 
         private void ConfigureAccessControls()
         {
@@ -40,7 +64,6 @@ namespace HotelBook
                 logout
             };
 
-            // Dezactivăm tot și setăm back-color uniform
             var normalColor = SystemColors.ButtonFace;
             foreach (var btn in allButtons)
             {
@@ -49,15 +72,12 @@ namespace HotelBook
                 btn.BackColor = ControlPaint.Dark(normalColor, 0.05f);
             }
 
-            // Log out rămâne întotdeauna activ
             logout.Enabled = true;
             logout.BackColor = normalColor;
 
-            // Activăm butoanele permise pe rol
             switch (SessionManager.CurrentUser.Role)
             {
                 case Role.Admin:
-                    // acces total
                     foreach (var btn in allButtons)
                     {
                         btn.Enabled = true;
@@ -81,40 +101,43 @@ namespace HotelBook
                     reservations.BackColor = normalColor;
                     break;
 
-                    // poți adăuga alte roluri aici...
             }
         }
 
 
 
-        // ------------  NAVIGAŢIE  ----------------------------------
+        // Navigheaza catre fereastra ControlPanel
 
         private void control_Click(object sender, EventArgs e)
         {
-            NavigateTo(new ControlPanel());   // Control → ControlPanel
+            NavigateTo(new ControlPanel());   
         }
+        // Navigheaza catre fereastra AdminPanel
 
         private void admin_Click(object sender, EventArgs e)
         {
-            NavigateTo(new AdminPanel());     // Admin → AdminPanel
+            NavigateTo(new AdminPanel());     
         }
+        // Navigheaza catre fereastra RoomPanel
 
         private void rooms_Click(object sender, EventArgs e)
         {
             NavigateTo(new RoomPanel());
         }
 
+        // Deconecteaza utilizatorul si revine la fereastra de autentificare
 
         private void logout_Click(object sender, EventArgs e)
         {
             SessionManager.Logout();
             Hide();
-            using (var login = new LogIn())   // revenim la LogIn
+            using (var login = new LogIn())   
             {
                 login.ShowDialog();
             }
             Close();
         }
+        // Navigheaza catre fereastra Reservation si revine la intoarcere
 
         private void reservations_Click_1(object sender, EventArgs e)
         {
@@ -123,6 +146,7 @@ namespace HotelBook
                 rp.ShowDialog(this);
             Show();
         }
+        // Navigheaza catre o fereastra data si revine la inchiderea acesteia
 
         private void NavigateTo(Form target)
         {

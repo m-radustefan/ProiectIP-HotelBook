@@ -1,4 +1,27 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        SqliteEmployeeRepository.cs                              *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Implementare concretă a IEmployeeRepository care utilizează*
+ *  SQLite pentru stocarea persistentă a datelor angajaților.             *
+ *  Caracteristici principale:                                            *
+ *    - Inițializează baza de date și tabela Employees la creare          *
+ *    - Implementează operațiile CRUD pentru gestionarea angajaților      *
+ *    - Utilizează parametri SQL pentru prevenirea SQL injection          *
+ *    - Gestionează corect resursele prin blocuri using                   *
+ *  Clasa este sealed pentru a preveni moștenirea nedorită.               *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,13 +38,14 @@ namespace HotelBook.Data
     {
         private readonly string _connString;
 
+        // Constructor - primeste calea catre fisierul bazei de date SQLite
         public SqliteEmployeeRepository(string dbPath)
         {
-            // dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "employees.db")
             _connString = $"Data Source={dbPath};Version=3;";
             InitializeDatabase();
         }
 
+        // Creeaza tabela Employees daca nu exista deja.
         private void InitializeDatabase()
         {
             using (var conn = new SQLiteConnection(_connString))
@@ -43,6 +67,7 @@ namespace HotelBook.Data
             }
         }
 
+        // Returneaza toti angajatii din baza de date.
         public IEnumerable<Employee> GetAll()
         {
             var list = new List<Employee>();
@@ -72,6 +97,7 @@ namespace HotelBook.Data
             return list;
         }
 
+        // Adauga un angajat nou in baza de date.
         public void Add(Employee emp)
         {
             using (var conn = new SQLiteConnection(_connString))
@@ -92,6 +118,7 @@ namespace HotelBook.Data
             }
         }
 
+        // Sterge un angajat dupa ID.
         public void Remove(int id)
         {
             using (var conn = new SQLiteConnection(_connString))

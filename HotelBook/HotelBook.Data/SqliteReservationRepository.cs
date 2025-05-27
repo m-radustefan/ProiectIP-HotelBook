@@ -1,4 +1,24 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        SqliteReservationRepository.cs                           *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa SqliteReservationRepository,*
+ *  care gestionează operațiile CRUD pentru rezervări folosind o bază     *
+ *  de date SQLite. Clasa implementează interfața IReservationRepository *
+ *  și permite adăugarea, ștergerea și obținerea tuturor rezervărilor.   *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +28,13 @@ using HotelBook.Domain;
 
 namespace HotelBook.Data
 {
+    // Implementare concreta a IReservationRepository pentru gestionarea rezervarilor cu SQLite.
+    // Clasa este sealed pentru a preveni mostenirea nedorita.
     public sealed class SqliteReservationRepository : IReservationRepository
     {
         private readonly string _cs;
 
+        // Constructor care primeste calea catre baza de date si initializeaza conexiunea.
         public SqliteReservationRepository(string dbPath)
         {
             if (string.IsNullOrWhiteSpace(dbPath))
@@ -21,6 +44,7 @@ namespace HotelBook.Data
             Initialize();
         }
 
+        // Creeaza tabela Reservations daca nu exista deja.
         private void Initialize()
         {
             using (var c = new SQLiteConnection(_cs))
@@ -44,6 +68,7 @@ namespace HotelBook.Data
             }
         }
 
+        // Returneaza lista tuturor rezervarilor din baza de date.
         public IEnumerable<Reservation> GetAll()
         {
             var list = new List<Reservation>();
@@ -87,6 +112,7 @@ namespace HotelBook.Data
             return list;
         }
 
+        // Adauga o noua rezervare in baza de date.
         public void Add(Reservation r)
         {
             if (r == null) throw new ArgumentNullException(nameof(r));
@@ -113,6 +139,7 @@ namespace HotelBook.Data
             }
         }
 
+        // Sterge toate rezervarile asociate unei camere, pe baza ID-ului camerei.
         public void RemoveByRoom(int roomId)
         {
             using (var c = new SQLiteConnection(_cs))

@@ -1,4 +1,26 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        AdminRegister.cs                                         *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa AdminRegister, care         *
+ *  gestionează interfața pentru înregistrarea angajaților noi în         *
+ *  aplicația HotelBook. Include validarea datelor, verificarea           *
+ *  duplicatelor, atribuirea rolurilor și adăugarea angajaților în baza   *
+ *  de date SQLite.                                                       *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +36,8 @@ namespace HotelBook
 {
     public partial class AdminRegister : Form
     {
+        // Constructorul formularului AdminRegister – initializeaza interfata si popularea ComboBox-ului cu roluri
+
         public AdminRegister()
         {
             InitializeComponent();
@@ -28,16 +52,18 @@ namespace HotelBook
             comboBox1.SelectedIndex = 0;
         }
 
+        // Evenimentul de incarcare al formularului – neutilizat momentan
 
         private void AdminRegister_Load(object sender, EventArgs e)
         {
-            // Dacă nu ai nimic special de făcut la Load, las-o goală.
+            
         }
 
+        // Eveniment declansat la apasarea butonului Submit – valideaza datele si adauga un angajat nou
 
         private void submitAdminRegister_Click(object sender, EventArgs e)
         {
-            // 1. Validare câmpuri
+            
             if (string.IsNullOrWhiteSpace(richTextBox1.Text) ||
                 string.IsNullOrWhiteSpace(richTextBox2.Text) ||
                 string.IsNullOrWhiteSpace(richTextBox3.Text) ||
@@ -58,7 +84,6 @@ namespace HotelBook
             string user = richTextBox3.Text.Trim();
             string pass = richTextBox4.Text.Trim();
 
-            // 2. Verificare username duplicat
             bool exists = EmployeeService
                 .GetAll()
                 .Any(empe => empe.Username.Equals(user, StringComparison.OrdinalIgnoreCase));
@@ -74,7 +99,7 @@ namespace HotelBook
                 return;
             }
 
-            // 3. Parse role
+            
             if (!Enum.TryParse<Role>(
                     comboBox1.SelectedItem.ToString(),
                     true,
@@ -82,7 +107,7 @@ namespace HotelBook
                 rol = Role.Admin;
 
 
-            // 4. Adaug în baza SQLite
+            
             var emp = new Employee
             {
                 FirstName = first,
@@ -93,7 +118,7 @@ namespace HotelBook
             };
             EmployeeService.Add(emp);
 
-            // 5. Feedback
+            
             MessageBox.Show(
                 "S-a adăugat partenerul cu succes",
                 "Succes",
@@ -101,20 +126,22 @@ namespace HotelBook
                 MessageBoxIcon.Information
             );
 
-            // 6. NU mai închide formularul! În schimb, golește câmpurile ca să poți introduce alt angajat:
+           
             ClearForm();
             richTextBox1.Focus();
         }
+        // Reseteaza toate campurile formularului
 
         private void ClearForm()
         {
-            richTextBox1.Clear();   // FirstName
-            richTextBox2.Clear();   // LastName
-            richTextBox3.Clear();   // Username
-            richTextBox4.Clear();   // Password
-            comboBox1.SelectedIndex = 0; // Reset la primul element (Admin)
+            richTextBox1.Clear();   
+            richTextBox2.Clear();   
+            richTextBox3.Clear();   
+            richTextBox4.Clear();   
+            comboBox1.SelectedIndex = 0; 
         }
 
+        // Eveniment declansat la apasarea butonului Back – inchide formularul curent
 
         private void backAdminRegister_Click(object sender, EventArgs e)
         {

@@ -1,4 +1,24 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        AdminPanel.cs                                            *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa AdminPanel, care            *
+ *  gestionează interfața principală pentru administrarea angajaților în  *
+ *  aplicația HotelBook. Permite vizualizarea, adăugarea și eliminarea    *
+ *  angajaților, precum și navigarea către alte componente ale aplicației.*
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,27 +34,33 @@ namespace HotelBook
 {
     public partial class AdminPanel : Form
     {
+        // Constructorul formularului AdminPanel – initializeaza interfata si incarca lista angajatilor
+
         public AdminPanel()
         {
             InitializeComponent();
             LoadEmployees();
         }
 
+        // Evenimentul de incarcare al formularului – in prezent nu face nimic, poate fi folosit pentru initializari suplimentare
+
         private void AdminPanel_Load(object sender, EventArgs e)
         {
-            // Dacă nu ai nimic special de făcut la Load, las-o goală.
+            
         }
 
+        // Incarca lista tuturor angajatilor si o afiseaza in DataGridView
 
         private void LoadEmployees()
         {
-            // Transformăm IEnumerable<Employee> în List pentru binding şi refresh
+            
             var list = EmployeeService.GetAll().ToList();
 
             dataGridViewEmployees.DataSource = list;
-            // Ascundem coloane nedorite (dacă e cazul)
-            // dataGridViewEmployees.Columns["Password"].Visible = false;
+            
         }
+
+        // Incearca sa obtina ID-ul angajatului selectat in DataGridView
 
         private bool TryGetSelectedEmployeeId(out int id)
         {
@@ -42,13 +68,15 @@ namespace HotelBook
             if (dataGridViewEmployees.CurrentRow == null)
                 return false;
 
-            // Preluăm valoarea din coloana „Id”
+           
             id = Convert.ToInt32(dataGridViewEmployees
                     .CurrentRow
                     .Cells["Id"]
                     .Value);
             return true;
         }
+
+        // Eveniment declansat la apasarea butonului "ADD" – deschide formularul de inregistrare a unui nou administrator
 
         private void addAdminPanel_Click(object sender, EventArgs e)
         {
@@ -58,6 +86,8 @@ namespace HotelBook
             LoadEmployees();
             Show();
         }
+
+        // Eveniment declansat la apasarea butonului "REMOVE" – elimina angajatul selectat din lista
 
         private void removeAdminPanel_Click(object sender, EventArgs e)
         {
@@ -76,6 +106,8 @@ namespace HotelBook
             LoadEmployees();
         }
 
+        // Eveniment declansat la apasarea butonului "BACK" – revine la formularul principal (Home)
+
         private void backAdminPanel_Click(object sender, EventArgs e)
         {
             Hide();
@@ -84,6 +116,7 @@ namespace HotelBook
             Close();
         }
 
+        // Eveniment asociat cu un click pe celulele din DataGridView – momentan nefolosit
         private void dataGridViewEmployees_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

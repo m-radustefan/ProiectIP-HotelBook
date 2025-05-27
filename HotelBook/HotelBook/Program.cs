@@ -8,14 +8,21 @@ namespace HotelBook
 {
     internal static class Program
     {
-        [STAThread]                 // necesar pentru WinForms
+        // Atribut necesar pentru aplicatii Windows Forms (permite rularea in modul single-threaded pentru UI)
+
+        [STAThread]                 
         private static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            // Activeaza stiluri vizuale moderne pentru controalele Windows Forms
 
-            // PORNEȘTE aplicația – alege formularul inițial
-            Application.Run(new LogIn());   // sau new Home(), după cum decizi
+            Application.EnableVisualStyles();
+            // Seteaza randarea textului pentru compatibilitate cu vechiul motor GDI
+
+            Application.SetCompatibleTextRenderingDefault(false);
+            // Ruleaza aplicatia incepand cu fereastra de logare
+
+
+            Application.Run(new LogIn());  
         }
     }
 }

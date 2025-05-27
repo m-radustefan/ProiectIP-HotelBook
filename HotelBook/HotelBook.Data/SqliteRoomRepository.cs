@@ -1,4 +1,24 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        SqliteRoomRepository.cs                                  *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Acest fișier definește clasa SqliteRoomRepository, care  *
+ *  gestionează camerele disponibile într-un hotel, folosind o bază de    *
+ *  date SQLite. Clasa permite adăugarea, actualizarea, ștergerea și      *
+ *  listarea camerelor, incluzând informații despre tip, status și preț. *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,12 +31,14 @@ public sealed class SqliteRoomRepository : IRoomRepository
 {
     private readonly string _cs;
 
+    // Constructor: initializeaza conexiunea la baza de date SQLite
     public SqliteRoomRepository(string dbPath)
     {
         _cs = $"Data Source={dbPath};Version=3;";
         Initialize();
     }
 
+    // Creeaza tabela Rooms in baza de date daca nu exista deja
     private void Initialize()
     {
         using (var c = new SQLiteConnection(_cs))
@@ -37,6 +59,7 @@ public sealed class SqliteRoomRepository : IRoomRepository
         }
     }
 
+    // Returneaza toate camerele din baza de date
     public IEnumerable<Room> GetAll()
     {
         var list = new List<Room>();
@@ -69,6 +92,7 @@ public sealed class SqliteRoomRepository : IRoomRepository
         return list;
     }
 
+    // Actualizeaza statusul unei camere existente in baza de date
     public void Update(Room room)
     {
         using (var c = new SQLiteConnection(_cs))
@@ -84,6 +108,7 @@ public sealed class SqliteRoomRepository : IRoomRepository
         }
     }
 
+    // Adauga o camera noua in baza de date
     public void Add(Room room)
     {
         using (var c = new SQLiteConnection(_cs))
@@ -103,6 +128,7 @@ public sealed class SqliteRoomRepository : IRoomRepository
         }
     }
 
+    // Sterge o camera dupa Id si rearanjeaza valorile Id-urilor
     public void Remove(int id)
     {
         using (var c = new SQLiteConnection(_cs))
@@ -111,18 +137,18 @@ public sealed class SqliteRoomRepository : IRoomRepository
             using (var tx = c.BeginTransaction())
             using (var cmd = c.CreateCommand())
             {
-                // 1) Şterge camera cu ID-ul respectiv
+                //  Şterge camera cu ID-ul respectiv
                 cmd.CommandText = "DELETE FROM Rooms WHERE Id = @id;";
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
 
-                // 2) Rearanjează PK-urile: scade cu 1 toate Id‐urile mai mari
+                //  Rearanjează PK-urile: scade cu 1 toate Id‐urile mai mari
                 cmd.Parameters.Clear();
                 cmd.CommandText = "UPDATE Rooms SET Id = Id - 1 WHERE Id > @id;";
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
 
-                // 3) Resetează AUTOINCREMENT ca să continue corect
+                //  Resetează AUTOINCREMENT ca să continue corect
                 cmd.Parameters.Clear();
                 cmd.CommandText = "DELETE FROM sqlite_sequence WHERE name='Rooms';";
                 cmd.ExecuteNonQuery();

@@ -1,4 +1,24 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        ControlPanel.cs                                          *
+ *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Description: Formularul ControlPanel permite gestiunea stării         *
+ *  camerelor într-un hotel: rezervare, check-out, și readucerea în       *
+ *  starea "ReadyToBook". Această interfață este destinată personalului   *
+ *  de recepție și curățenie, în funcție de permisiunile de rol.          *
+ *                                                                        *
+ *  This program is free software; you can redistribute it and/or modify  *
+ *  it under the terms of the GNU General Public License as published by  *
+ *  the Free Software Foundation. This program is distributed in the      *
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even   *
+ *  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR   *
+ *  PURPOSE. See the GNU General Public License for more details.         *
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +28,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HotelBook.Domain;
-using HotelBook.Services;  // dacă ai un BookingService
+using HotelBook.Services;  
 
 namespace HotelBook
 {
@@ -16,23 +36,20 @@ namespace HotelBook
     {
         private readonly Room _room;
 
-        /// <summary>
-        /// Primește camera selectată din ControlPanel.
-        /// </summary>
+        // Constructorul formularului – initializeaza componenta si salveaza camera primita ca parametru
+
         public BookingPanel(Room room)
         {
             InitializeComponent();
             _room = room ?? throw new ArgumentNullException(nameof(room));
-            // Legăm handler‐ul Load care e definit în Designer ca BookingPanel_Load_1
             this.Load += BookingPanel_Load_1;
         }
 
-        /// <summary>
-        /// Load-ul formularului: configurăm DataGridView și afișăm camera.
-        /// </summary>
+        // Evenimentul de incarcare al formularului – configureaza DataGridView-ul si afiseaza informatiile camerei
+
         private void BookingPanel_Load_1(object sender, EventArgs e)
         {
-            // Configurare DataGridView
+            
             dataGridBookingPanel.ReadOnly = true;
             dataGridBookingPanel.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridBookingPanel.MultiSelect = false;
@@ -41,10 +58,10 @@ namespace HotelBook
             dataGridBookingPanel.AllowUserToAddRows = false;
             dataGridBookingPanel.AllowUserToDeleteRows = false;
 
-            // Afișăm doar camera selectată
+            
             dataGridBookingPanel.DataSource = new[] { _room }.ToList();
 
-            // Personalizăm antetele coloanelor
+            
             if (dataGridBookingPanel.Columns["Id"] != null)
                 dataGridBookingPanel.Columns["Id"].Visible = false;
             if (dataGridBookingPanel.Columns["Type"] != null)
@@ -55,12 +72,11 @@ namespace HotelBook
                 dataGridBookingPanel.Columns["Price"].HeaderText = "Preț €/noapte";
         }
 
-        /// <summary>
-        /// Click pe BOOK: validăm date, salvăm rezervarea, schimbăm statusul și afișăm totalul.
-        /// </summary>
+        // Eveniment declansat la apasarea butonului de rezervare – valideaza datele si inregistreaza rezervarea
+
         private void bookBookingPanel_Click(object sender, EventArgs e)
         {
-            // 1) Citim și validăm câmpurile
+            
             string first = firstnameBookingPanel.Text.Trim();
             string last = lastnameBookingPanel.Text.Trim();
             string phone = phoneBookingPanel.Text.Trim();
@@ -83,7 +99,8 @@ namespace HotelBook
                 return;
             }
 
-            // 2) Persistăm rezervarea
+            // Creare obiect rezervare si salvare in baza de date
+
             var rez = new HotelBook.Domain.Reservation
             {
                 RoomId = _room.Id,
@@ -96,11 +113,13 @@ namespace HotelBook
             };
             ReservationService.Add(rez);
 
-            // 3) Schimbăm statusul camerei
+            // Actualizare status camera
+
             _room.Status = RoomStatus.Booked;
             RoomService.Update(_room);
 
-            // 4) Calculăm și afișăm totalul
+            // Afisare mesaj de confirmare cu totalul de plata
+
             double total = _room.Price * nights;
             MessageBox.Show(
                 $"Rezervare realizată cu succes!\n\n" +
@@ -113,13 +132,12 @@ namespace HotelBook
                 MessageBoxIcon.Information
             );
 
-            // 5) Închidem BookingPanel ca să revenim la ControlPanel
+            
             Close();
         }
 
-        /// <summary>
-        /// Click pe BACK: ne întoarcem la ControlPanel.
-        /// </summary>
+        // Butonul de revenire la ControlPanel – ascunde BookingPanel si deschide ControlPanel
+
         private void backBookingPanel_Click(object sender, EventArgs e)
         {
             Hide();
@@ -128,7 +146,8 @@ namespace HotelBook
             Close();
         }
 
-        // Handlere goale generate de Designer (le poți șterge dacă nu le folosești)
+        // Evenimente neutilizate (pentru modificarile din textboxuri si grid)
+
         private void dataGridBookingPanel_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
         private void firstnameBookingPanel_TextChanged(object sender, EventArgs e) { }
         private void lastnameBookingPanel_TextChanged(object sender, EventArgs e) { }
