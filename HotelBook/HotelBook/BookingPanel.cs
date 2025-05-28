@@ -41,9 +41,16 @@ namespace HotelBook
         public BookingPanel(Room room)
         {
             InitializeComponent();
+            this.FormClosing += Form_Closing;
             _room = room ?? throw new ArgumentNullException(nameof(room));
             this.Load += BookingPanel_Load_1;
         }
+
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
         // Evenimentul de incarcare al formularului – configureaza DataGridView-ul si afiseaza informatiile camerei
 

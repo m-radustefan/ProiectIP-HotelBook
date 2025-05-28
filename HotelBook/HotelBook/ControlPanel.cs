@@ -40,11 +40,16 @@ namespace HotelBook
         public ControlPanel()
         {
             InitializeComponent();
-
+            this.FormClosing += Form_Closing;
             this.Activated += ControlPanel_Activated;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
         }
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
         // La incarcarea ferestrei: configureaza DataGridView-ul si incarca camerele
 
         private void ControlPanel_Load(object sender, EventArgs e)

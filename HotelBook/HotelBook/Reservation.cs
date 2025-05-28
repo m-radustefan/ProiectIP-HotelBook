@@ -40,10 +40,16 @@ namespace HotelBook
         public Reservation()
         {
             InitializeComponent();
+            this.FormClosing += Form_Closing;
             this.Load += Reservation_Load;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
         }
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
         // Se executa la incarcarea formularului – configureaza DataGridView-ul si afiseaza rezervarile
 
         private void Reservation_Load(object sender, EventArgs e)

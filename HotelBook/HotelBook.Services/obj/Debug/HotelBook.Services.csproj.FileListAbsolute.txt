@@ -108,3 +108,25 @@ C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectI
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBoo.D9FC009C.Up2Date
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.dll
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.pdb
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.dll.config
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Services.pdb
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.SqlServer.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.pdb
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Data.dll.config
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.pdb
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\HotelBook.Domain.dll.config
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.xml
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\EntityFramework.SqlServer.xml
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\bin\Debug\System.Data.SQLite.xml
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.csproj.AssemblyReference.cache
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.csproj.CoreCompileInputs.cache
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBoo.D9FC009C.Up2Date
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.dll
+E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Services\obj\Debug\HotelBook.Services.pdb

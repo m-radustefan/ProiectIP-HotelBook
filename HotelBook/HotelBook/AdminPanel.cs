@@ -39,8 +39,15 @@ namespace HotelBook
         public AdminPanel()
         {
             InitializeComponent();
+            this.FormClosing += Form_Closing;
             LoadEmployees();
         }
+
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
         // Evenimentul de incarcare al formularului – in prezent nu face nimic, poate fi folosit pentru initializari suplimentare
 

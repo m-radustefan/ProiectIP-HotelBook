@@ -34,10 +34,16 @@ namespace HotelBook
         public LogIn()
         {
             InitializeComponent();
+            this.FormClosing += Form_Closing;
             login_pass.UseSystemPasswordChar = true;
             this.FormClosing += CloseApp;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
+        }
+
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void LogIn_Load(object sender, EventArgs e)

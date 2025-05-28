@@ -42,9 +42,15 @@ namespace HotelBook
         {
             InitializeComponent();
             this.Load += RoomPanel_Load;
+            this.FormClosing += Form_Closing;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
         }
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
         // Handler apelat la incarcarea formularului – poate fi folosit pentru initializari viitoare
 
         private void RoomPanel_Load(object sender, EventArgs e)

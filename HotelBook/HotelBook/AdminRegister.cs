@@ -41,7 +41,7 @@ namespace HotelBook
         public AdminRegister()
         {
             InitializeComponent();
-
+            this.FormClosing += Form_Closing;
             comboBox1.Items.Clear();
             comboBox1.Items.AddRange(new[]
             {
@@ -51,6 +51,12 @@ namespace HotelBook
             });
             comboBox1.SelectedIndex = 0;
         }
+
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
         // Evenimentul de incarcare al formularului – neutilizat momentan
 
