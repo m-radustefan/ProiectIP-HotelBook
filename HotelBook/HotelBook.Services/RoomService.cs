@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        RoomService.cs                                           *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Serviciu static pentru gestionarea camerelor hotelului.  *
  *  Utilizează același fișier SQLite ca EmployeeService dar cu tabelă     *
  *  separată pentru camere. Oferă funcționalități complete CRUD:          *

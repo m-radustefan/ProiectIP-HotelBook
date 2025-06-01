@@ -1,8 +1,8 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        AdminRegister.cs                                         *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
+ *  E-mail:      eduart-ionut.rusu@student.tuiasi.ro                      *
  *  Description: Acest fișier definește clasa AdminRegister, care         *
  *  gestionează interfața pentru înregistrarea angajaților noi în         *
  *  aplicația HotelBook. Include validarea datelor, verificarea           *
@@ -41,7 +41,7 @@ namespace HotelBook
         public AdminRegister()
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
+
             comboBox1.Items.Clear();
             comboBox1.Items.AddRange(new[]
             {
@@ -51,12 +51,6 @@ namespace HotelBook
             });
             comboBox1.SelectedIndex = 0;
         }
-
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
 
         // Evenimentul de incarcare al formularului – neutilizat momentan
 

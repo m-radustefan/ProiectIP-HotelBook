@@ -1,15 +1,15 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Employee.cs                                              *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Munteanu Radu Stefan                           *
+ *  E-mail:      radu-stefan.munteanu@student.tuiasi.ro                   *
  *  Description: Clasă ce reprezintă un angajat în sistemul hotelier.     *
  *  Conține toate informațiile necesare gestionării angajaților:          *
  *    - Identificator unic                                                *
- *    - Nume și prenume                                                  *
+ *    - Nume și prenume                                                   *
  *    - Credențiale de autentificare (username și parolă)                 *
  *    - Rol în sistem (momentan doar Admin)                               *
- *  Clasa este sealed pentru a preveni moștenirea nedorită.              *
+ *  Clasa este sealed pentru a preveni moștenirea nedorită.               *
  *  Rolul este setat implicit la Admin pentru cerințele curente.          *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *

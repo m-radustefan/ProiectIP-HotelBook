@@ -1,12 +1,12 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        SqliteReservationRepository.cs                           *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Munteanu Radu Stefan                           *
+ *  E-mail:      radu-stefan.munteanu@student.tuiasi.ro                   *
  *  Description: Acest fișier definește clasa SqliteReservationRepository,*
  *  care gestionează operațiile CRUD pentru rezervări folosind o bază     *
- *  de date SQLite. Clasa implementează interfața IReservationRepository *
- *  și permite adăugarea, ștergerea și obținerea tuturor rezervărilor.   *
+ *  de date SQLite. Clasa implementează interfața IReservationRepository  *
+ *  și permite adăugarea, ștergerea și obținerea tuturor rezervărilor.    *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *
  *  it under the terms of the GNU General Public License as published by  *

@@ -2,7 +2,7 @@
  *                                                                          *
  *  File:        LogIn.cs                                                   *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                            *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                    *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                    *
  *  Description: Acest fișier definește formularul LogIn, care permite      *
  *  autentificarea angajaților în aplicația HotelBook. Formularul validează *
  *  combinația de utilizator și parolă, inițiază sesiunea curentă pe baza   *
@@ -34,16 +34,10 @@ namespace HotelBook
         public LogIn()
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
             login_pass.UseSystemPasswordChar = true;
             this.FormClosing += CloseApp;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
-        }
-
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
         }
 
         private void LogIn_Load(object sender, EventArgs e)

@@ -1,8 +1,8 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        RoomPanel.cs                                             *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Bardasu Alexandru Ioan                         *
+ *  E-mail:      alexandru-ioan.bardasu@student.tuiasi.ro                 *
  *  Description: Acest fișier definește formularul RoomPanel, care        *
  *  permite adăugarea și ștergerea camerelor din aplicația de gestionare  *
  *  a rezervărilor hoteliere. Interfața grafică oferă controale pentru    *
@@ -42,15 +42,9 @@ namespace HotelBook
         {
             InitializeComponent();
             this.Load += RoomPanel_Load;
-            this.FormClosing += Form_Closing;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
         }
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
         // Handler apelat la incarcarea formularului – poate fi folosit pentru initializari viitoare
 
         private void RoomPanel_Load(object sender, EventArgs e)

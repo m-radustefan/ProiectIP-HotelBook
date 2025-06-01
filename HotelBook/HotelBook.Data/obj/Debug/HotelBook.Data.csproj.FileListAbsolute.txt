@@ -106,30 +106,3 @@ C:\Users\Xixica\Desktop\ProiectIP2\ProiectIP-HotelBook\HotelBook\HotelBook.Data\
 C:\Users\Xixica\Desktop\ProiectIP2\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBoo.3266E5CB.Up2Date
 C:\Users\Xixica\Desktop\ProiectIP2\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.dll
 C:\Users\Xixica\Desktop\ProiectIP2\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.dll.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Data.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.SqlServer.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Buffers.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.EF6.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.Linq.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Memory.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Numerics.Vectors.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\HotelBook.Domain.dll.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\EntityFramework.SqlServer.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Buffers.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Data.SQLite.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Memory.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Numerics.Vectors.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.AssemblyReference.cache
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.csproj.CoreCompileInputs.cache
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBoo.3266E5CB.Up2Date
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook.Data\obj\Debug\HotelBook.Data.pdb

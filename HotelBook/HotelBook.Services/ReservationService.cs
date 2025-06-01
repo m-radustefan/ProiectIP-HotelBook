@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        ReservationService.cs                                    *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Acest fișier definește clasa statică ReservationService, *
  *  care oferă metode pentru gestionarea rezervărilor unui hotel.         *
  *  Serviciul utilizează un repository SQLite pentru stocarea persistentă *

@@ -1,11 +1,11 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        RoomStatus.cs                                            *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
  *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
  *  Description: Enumerare care definește stările posibile ale unei camere*
- *  de hotel în sistemul de gestionare. Valorile disponibile sunt:         *
- *    - ReadyToBook: Cameră disponibilă pentru rezervare                   *
+ *  de hotel în sistemul de gestionare. Valorile disponibile sunt:        *
+ *    - ReadyToBook: Cameră disponibilă pentru rezervare                  *
  *    - Booked: Cameră rezervată de un client                             *
  *    - CheckOut: Clientul a părăsit camera, necesită curățenie           *
  *  Utilizat pentru gestionarea fluxului camerelor în sistemul hotelier.  *

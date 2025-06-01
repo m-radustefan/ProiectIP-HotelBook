@@ -1,8 +1,8 @@
 ﻿/***************************************************************************
  *                                                                         *
  *  File:        Home.cs                                                   *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                           *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                   *
+ *  Copyright:   (c) 2025, Munteanu Radu Stefan                            *
+ *  E-mail:      radu-stefan.munteanu@student.tuiasi.ro                    *
  *  Description: Formularul principal Home oferă interfața de navigație    *
  *  pentru utilizatorii autentificați în aplicația HotelBook. Accesul la   *
  *  diferitele secțiuni (admin, camere, rezervări, control) este controlat *
@@ -40,16 +40,8 @@ namespace HotelBook
         public Home()
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
             ConfigureAccessControls();
         }
-
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
-
         // Eveniment apelat la incarcarea formularului – reaplica regulile de acces
 
         private void Home_Load(object sender, EventArgs e)

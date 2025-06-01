@@ -1,15 +1,15 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        IReservationRepository.cs                                *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
+ *  E-mail:      eduard-ionut.rusu@student.tuiasi.ro                      *
  *  Description: Interfață care definește operațiunile de bază pentru     *
  *  gestionarea rezervărilor în sistemul hotelier. Acestea includ:        *
- *    - Obținerea tuturor rezervărilor (GetAll)                          *
- *    - Adăugarea unei noi rezervări (Add)                               *
- *    - Eliminarea rezervărilor după ID-ul camerei (RemoveByRoom)        *
+ *    - Obținerea tuturor rezervărilor (GetAll)                           *
+ *    - Adăugarea unei noi rezervări (Add)                                *
+ *    - Eliminarea rezervărilor după ID-ul camerei (RemoveByRoom)         *
  *  Interfața servește ca contract pentru implementările concrete ale     *
- *  repository-ului, asigurând abstractizarea accesului la date și       *
+ *  repository-ului, asigurând abstractizarea accesului la date și        *
  *  separarea preocupărilor în arhitectura aplicației.                    *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *

@@ -1,14 +1,14 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Role.cs                                                  *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
+ *  E-mail:      eduard-ionut.rusu@student.tuiasi.ro                      *
  *  Description: Enumerare care definește rolurile disponibile în sistemul*
  *  de gestionare hotelieră. Valorile posibile sunt:                      *
  *    - Admin: Drepturi complete de administrare                          *
  *    - Cleaner: Personal de curățenie                                    *
  *    - Receptionist: Personal de la recepție                             *
- *  Utilizat pentru controlul accesului și al drepturilor utilizatorilor.*
+ *  Utilizat pentru controlul accesului și al drepturilor utilizatorilor. *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *
  *  it under the terms of the GNU General Public License as published by  *

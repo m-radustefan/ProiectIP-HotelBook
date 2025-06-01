@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        ControlPanel.cs                                          *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Formularul ControlPanel permite gestiunea stării         *
  *  camerelor într-un hotel: rezervare, check-out, și readucerea în       *
  *  starea "ReadyToBook". Această interfață este destinată personalului   *
@@ -41,16 +41,9 @@ namespace HotelBook
         public BookingPanel(Room room)
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
             _room = room ?? throw new ArgumentNullException(nameof(room));
             this.Load += BookingPanel_Load_1;
         }
-
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
 
         // Evenimentul de incarcare al formularului – configureaza DataGridView-ul si afiseaza informatiile camerei
 

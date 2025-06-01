@@ -1,8 +1,8 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        User.cs                                                  *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Bardasu Alexandru Ioan                         *
+ *  E-mail:      alexandru-ioan.bardasu@student.tuiasi.ro                 *
  *  Description: Clasă ce reprezintă un utilizator în sistemul hotelier.  *
  *  Stochează informațiile esențiale ale utilizatorului:                  *
  *    - Numele de utilizator (username)                                   *

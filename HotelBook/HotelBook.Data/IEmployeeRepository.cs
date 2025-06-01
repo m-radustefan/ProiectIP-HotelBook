@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        IEmployeeRepository.cs                                   *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Interfață care definește operațiunile de bază pentru     *
  *  gestionarea angajaților în sistemul hotelier. Acestea includ:         *
  *    - Obținerea tuturor angajaților (GetAll)                           *

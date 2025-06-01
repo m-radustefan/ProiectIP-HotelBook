@@ -1,11 +1,11 @@
 ﻿/**************************************************************************
  *                                                                        *
- *  File:        EmployeeService.cs                                        *
+ *  File:        EmployeeService.cs                                       *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Acest fișier definește clasa statică EmployeeService,    *
- *  care oferă metode pentru gestionarea angajaților unui hotel.           *
- *  Serviciul utilizează un repository SQLite pentru stocarea persistentă  *
+ *  care oferă metode pentru gestionarea angajaților unui hotel.          *
+ *  Serviciul utilizează un repository SQLite pentru stocarea persistentă *
  *  a datelor și expune metode pentru obținerea tuturor angajaților,      *
  *  adăugarea unui angajat nou și ștergerea unui angajat existent.        *
  *                                                                        *

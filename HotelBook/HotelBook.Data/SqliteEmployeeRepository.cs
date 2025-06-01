@@ -1,8 +1,8 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        SqliteEmployeeRepository.cs                              *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
+ *  E-mail:      eduard-ionut.rusu@student.tuiasi.ro                      *
  *  Description: Implementare concretă a IEmployeeRepository care utilizează*
  *  SQLite pentru stocarea persistentă a datelor angajaților.             *
  *  Caracteristici principale:                                            *

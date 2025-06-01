@@ -1,12 +1,12 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        SqliteRoomRepository.cs                                  *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Bardasu Alexandru Ioan                         *
+ *  E-mail:      alexandru-ioan.bardasu@student.tuiasi.ro                 *
  *  Description: Acest fișier definește clasa SqliteRoomRepository, care  *
  *  gestionează camerele disponibile într-un hotel, folosind o bază de    *
  *  date SQLite. Clasa permite adăugarea, actualizarea, ștergerea și      *
- *  listarea camerelor, incluzând informații despre tip, status și preț. *
+ *  listarea camerelor, incluzând informații despre tip, status și preț.  *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *
  *  it under the terms of the GNU General Public License as published by  *

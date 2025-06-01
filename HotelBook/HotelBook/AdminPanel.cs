@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        AdminPanel.cs                                            *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Acest fișier definește clasa AdminPanel, care            *
  *  gestionează interfața principală pentru administrarea angajaților în  *
  *  aplicația HotelBook. Permite vizualizarea, adăugarea și eliminarea    *
@@ -39,15 +39,8 @@ namespace HotelBook
         public AdminPanel()
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
             LoadEmployees();
         }
-
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
 
         // Evenimentul de incarcare al formularului – in prezent nu face nimic, poate fi folosit pentru initializari suplimentare
 

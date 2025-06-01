@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\",
+  "WorkspaceRootPath": "D:\\Facultate\\Anul3\\IP\\ProiectIP-HotelBook\\HotelBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\hotelbook\\roompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\roompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\hotelbook\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\hotelbook\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|D:\\Facultate\\Anul3\\IP\\ProiectIP-HotelBook\\HotelBook\\hotelbook\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|e:\\facultate\\anul 3\\sem2\\ip\\proiectip-hotelbook\\hotelbook\\hotelbook\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\hotelbook\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|e:\\facultate\\anul 3\\sem2\\ip\\proiectip-hotelbook\\hotelbook\\hotelbook\\bookingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\bookingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|e:\\facultate\\anul 3\\sem2\\ip\\proiectip-hotelbook\\hotelbook\\hotelbook\\adminregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\adminregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|e:\\facultate\\anul 3\\sem2\\ip\\proiectip-hotelbook\\hotelbook\\hotelbook\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|e:\\facultate\\anul 3\\sem2\\ip\\proiectip-hotelbook\\hotelbook\\hotelbook\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12078C5D-466C-472E-BC73-531CAF3ECEB8}|HotelBook\\HotelBook.csproj|solutionrelative:hotelbook\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ControlPanel.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\ControlPanel.cs",
-              "RelativeDocumentMoniker": "HotelBook\\ControlPanel.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\ControlPanel.cs",
-              "RelativeToolTip": "HotelBook\\ControlPanel.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA4wDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:10:29.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingPanel.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\BookingPanel.cs",
-              "RelativeDocumentMoniker": "HotelBook\\BookingPanel.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\BookingPanel.cs",
-              "RelativeToolTip": "HotelBook\\BookingPanel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:10:14.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminRegister.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\AdminRegister.cs",
-              "RelativeDocumentMoniker": "HotelBook\\AdminRegister.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\AdminRegister.cs",
-              "RelativeToolTip": "HotelBook\\AdminRegister.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:10:01.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminPanel.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\AdminPanel.cs",
-              "RelativeDocumentMoniker": "HotelBook\\AdminPanel.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\AdminPanel.cs",
-              "RelativeToolTip": "HotelBook\\AdminPanel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:09:44.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\Home.cs",
-              "RelativeDocumentMoniker": "HotelBook\\Home.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\Home.cs",
-              "RelativeToolTip": "HotelBook\\Home.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:07:34.983Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoomPanel.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\RoomPanel.cs",
-              "RelativeDocumentMoniker": "HotelBook\\RoomPanel.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\RoomPanel.cs",
-              "RelativeToolTip": "HotelBook\\RoomPanel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:59:37.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\Reservation.cs",
-              "RelativeDocumentMoniker": "HotelBook\\Reservation.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\Reservation.cs",
-              "RelativeToolTip": "HotelBook\\Reservation.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:59:28.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ControlPanel.cs [Design]",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\ControlPanel.cs",
-              "RelativeDocumentMoniker": "HotelBook\\ControlPanel.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\ControlPanel.cs [Design]",
-              "RelativeToolTip": "HotelBook\\ControlPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:48:59.879Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LogIn.cs",
-              "DocumentMoniker": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\LogIn.cs",
+              "DocumentMoniker": "D:\\Facultate\\Anul3\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\LogIn.cs",
               "RelativeDocumentMoniker": "HotelBook\\LogIn.cs",
-              "ToolTip": "E:\\Facultate\\Anul 3\\SEM2\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\LogIn.cs",
+              "ToolTip": "D:\\Facultate\\Anul3\\IP\\ProiectIP-HotelBook\\HotelBook\\HotelBook\\LogIn.cs",
               "RelativeToolTip": "HotelBook\\LogIn.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T17:49:18.118Z",
               "EditorCaption": ""

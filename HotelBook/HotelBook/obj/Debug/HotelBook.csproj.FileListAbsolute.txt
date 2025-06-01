@@ -174,38 +174,3 @@ C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectI
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.Up2Date
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.exe
 C:\Users\mipad\Downloads\wetransfer_proiectip-hotelbook_2025-05-27_1633\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.exe.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.exe
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.SqlServer.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.EF6.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.Linq.dll
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Data.dll.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Domain.dll.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.pdb
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\HotelBook.Services.dll.config
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\EntityFramework.SqlServer.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\bin\Debug\System.Data.SQLite.xml
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.AssemblyReference.cache
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.AdminPanel.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.AdminRegister.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.BookingPanel.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.ControlPanel.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Home.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.LogIn.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Properties.Resources.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.Reservation.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.RoomPanel.resources
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.GenerateResource.cache
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.CoreCompileInputs.cache
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.csproj.Up2Date
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.exe
-E:\Facultate\Anul 3\SEM2\IP\ProiectIP-HotelBook\HotelBook\HotelBook\obj\Debug\HotelBook.pdb

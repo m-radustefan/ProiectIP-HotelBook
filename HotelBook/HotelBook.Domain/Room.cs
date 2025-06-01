@@ -1,9 +1,9 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Room.cs                                                  *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
- *  Description: Clasă ce reprezintă o cameră de hotel în sistem.          *
+ *  Copyright:   (c) 2025, Bardasu Alexandru Ioan                         *
+ *  E-mail:      alexandru-ioan.bardasu@student.tuiasi.ro                 *
+ *  Description: Clasă ce reprezintă o cameră de hotel în sistem.         *
  *  Conține toate informațiile necesare gestionării camerelor:            *
  *    - Identificator unic                                                *
  *    - Tipul camerei (Single, Double, Suite etc.)                        *

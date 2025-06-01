@@ -1,8 +1,8 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Reservation.cs                                           *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Rusu Eduard Ionut                              *
+ *  E-mail:      eduard-ionut.rusu@student.tuiasi.ro                      *
  *  Description: Acest fișier definește formularul Reservation, care      *
  *  afișează într-un DataGridView toate rezervările existente din sistem. *
  *  Rezervările sunt sortate și afișate cu informații personalizate în    *
@@ -40,16 +40,10 @@ namespace HotelBook
         public Reservation()
         {
             InitializeComponent();
-            this.FormClosing += Form_Closing;
             this.Load += Reservation_Load;
             helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
             despreToolStripMenuItem.Click += DespreToolStripMenuItem_Click;
         }
-        private void Form_Closing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
-
         // Se executa la incarcarea formularului – configureaza DataGridView-ul si afiseaza rezervarile
 
         private void Reservation_Load(object sender, EventArgs e)

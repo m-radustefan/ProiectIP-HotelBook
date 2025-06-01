@@ -1,16 +1,16 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        IRoomRepository.cs                                       *
- *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  Copyright:   (c) 2025, Bardasu Alexandru Ioan                         *
+ *  E-mail:      alexandru-ioan.bardasu@student.tuiasi.ro                 *
  *  Description: Interfață care definește operațiunile CRUD pentru        *
  *  gestionarea camerelor hotelului în sistem. Acestea includ:            *
- *    - Obținerea tuturor camerelor (GetAll)                             *
- *    - Actualizarea informațiilor unei camere (Update)                  *
- *    - Adăugarea unei camere noi (Add)                                  *
- *    - Eliminarea unei camere după ID (Remove)                          *
- *  Interfața asigură abstractizarea accesului la date și separarea      *
- *  logicii de business de mecanismele de stocare persistentă.           *
+ *    - Obținerea tuturor camerelor (GetAll)                              *
+ *    - Actualizarea informațiilor unei camere (Update)                   *
+ *    - Adăugarea unei camere noi (Add)                                   *
+ *    - Eliminarea unei camere după ID (Remove)                           *
+ *  Interfața asigură abstractizarea accesului la date și separarea       *
+ *  logicii de business de mecanismele de stocare persistentă.            *
  *                                                                        *
  *  This program is free software; you can redistribute it and/or modify  *
  *  it under the terms of the GNU General Public License as published by  *

@@ -2,7 +2,7 @@
  *                                                                        *
  *  File:        Reservation.cs                                           *
  *  Copyright:   (c) 2025, Padurariu Matei Ionut                          *
- *  E-mail:      matei-iontu.padurariu@student.tuiasi.ro                  *
+ *  E-mail:      matei-ionut.padurariu@student.tuiasi.ro                  *
  *  Description: Clasă ce reprezintă o rezervare în sistemul hotelier.    *
  *  Stochează toate informațiile necesare unei rezervări:                 *
  *    - Identificator unic și ID cameră                                   *
