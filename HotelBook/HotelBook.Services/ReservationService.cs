@@ -50,5 +50,7 @@ namespace HotelBook.Services
 
         // Șterge toate rezervările asociate unei camere după ID-ul camerei
         public static void RemoveByRoom(int roomId) => _repo.RemoveByRoom(roomId);
+
+      
     }
 }
